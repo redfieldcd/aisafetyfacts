@@ -1,0 +1,309 @@
+[
+  {
+    "name": "OpenAI",
+    "slug": "openai",
+    "description": "Creator of GPT-4, ChatGPT, and DALL-E. Founded in 2015 as a non-profit, restructured to capped-profit in 2019.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": true, "detail": "Preparedness Framework published", "source": "https://openai.com/safety", "lastUpdated": "2024-12-18" },
+      { "label": "Model Card / System Card", "status": true, "detail": "GPT-4 System Card published", "source": "https://openai.com/research/gpt-4-system-card", "lastUpdated": "2024-03-14" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Included in system cards", "source": "https://openai.com/research/gpt-4-system-card", "lastUpdated": "2024-03-14" },
+      { "label": "Acceptable Use Policy", "status": true, "detail": "Usage policies published", "source": "https://openai.com/policies/usage-policies", "lastUpdated": "2024-01-10" }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": true, "detail": "Multiple external red teams engaged", "source": "https://openai.com/research/gpt-4-system-card", "lastUpdated": "2024-03-14" },
+      { "label": "CBRN risk evaluation done", "status": true, "detail": "Evaluated in Preparedness Framework", "source": "https://openai.com/safety", "lastUpdated": "2024-12-18" },
+      { "label": "Pre-deployment safety eval published", "status": true, "detail": "Published with model releases", "source": "https://openai.com/research/gpt-4-system-card", "lastUpdated": "2024-03-14" },
+      { "label": "Participates in METR / ARC evals", "status": true, "detail": "Partnered with METR for evaluations", "source": "https://metr.org/blog/2024-03-13-openai-partnership/", "lastUpdated": "2024-03-13" }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": true, "detail": "Safety Advisory Group established", "source": "https://openai.com/blog/safety-advisory-group", "lastUpdated": "2024-06-01" },
+      { "label": "Signed Seoul AI Safety Commitment", "status": true, "detail": "Signed May 2024", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment", "lastUpdated": "2024-05-21" },
+      { "label": "Submitted safety report to government", "status": true, "detail": "Reports to AISI", "source": "https://openai.com/safety", "lastUpdated": "2024-11-01" },
+      { "label": "Allows third-party audits", "status": true, "detail": "Engaged external auditors", "source": "https://openai.com/safety", "lastUpdated": "2024-06-01" },
+      { "label": "Published employee safety concern process", "status": false, "detail": "No public whistleblower policy", "source": null, "lastUpdated": null }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Restricted", "detail": "Revised policy in 2024 to allow some military/defense use cases", "source": "https://openai.com/policies/usage-policies" },
+      { "label": "Surveillance use", "value": "Banned", "detail": "Prohibited in usage policies", "source": "https://openai.com/policies/usage-policies" },
+      { "label": "Open-source models", "value": "No", "detail": "Models are closed-source, API access only", "source": "https://openai.com" },
+      { "label": "Content filtering", "value": "Multi-layered content filtering system with RLHF alignment", "detail": null, "source": "https://openai.com/safety" }
+    ],
+    "incidents": [
+      { "date": "2024-02-15", "title": "ChatGPT hallucination in legal case", "description": "ChatGPT generated fictitious legal citations used in court filing", "source": "https://incidentdatabase.ai", "companyResponse": "https://openai.com/blog" },
+      { "date": "2023-03-20", "title": "ChatGPT data leak", "description": "Bug exposed some users' chat history titles and payment information", "source": "https://openai.com/blog/march-20-chatgpt-outage", "companyResponse": "https://openai.com/blog/march-20-chatgpt-outage" }
+    ],
+    "timeline": [
+      { "date": "2024-12-18", "event": "Published updated Preparedness Framework", "source": "https://openai.com/safety" },
+      { "date": "2024-05-21", "event": "Signed Seoul AI Safety Commitment", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment" },
+      { "date": "2024-03-14", "event": "Released GPT-4 System Card with safety evaluations", "source": "https://openai.com/research/gpt-4-system-card" },
+      { "date": "2023-07-21", "event": "Announced Superalignment team", "source": "https://openai.com/blog/introducing-superalignment" }
+    ]
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "description": "AI safety company building Claude. Founded in 2021 by former OpenAI researchers with a focus on AI safety research.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": true, "detail": "Responsible Scaling Policy (RSP) published", "source": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy", "lastUpdated": "2024-10-15" },
+      { "label": "Model Card / System Card", "status": true, "detail": "Claude model cards published", "source": "https://docs.anthropic.com/en/docs/about-claude/models", "lastUpdated": "2024-10-01" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Extensive benchmarks in model cards", "source": "https://www.anthropic.com/research", "lastUpdated": "2024-10-01" },
+      { "label": "Acceptable Use Policy", "status": true, "detail": "Acceptable Use Policy published", "source": "https://www.anthropic.com/aup", "lastUpdated": "2024-08-01" }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": true, "detail": "Multiple external red teams", "source": "https://www.anthropic.com/research", "lastUpdated": "2024-10-01" },
+      { "label": "CBRN risk evaluation done", "status": true, "detail": "Part of RSP evaluations", "source": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy", "lastUpdated": "2024-10-15" },
+      { "label": "Pre-deployment safety eval published", "status": true, "detail": "Published with model releases", "source": "https://www.anthropic.com/research", "lastUpdated": "2024-10-01" },
+      { "label": "Participates in METR / ARC evals", "status": true, "detail": "Engages with METR for evaluations", "source": "https://metr.org", "lastUpdated": "2024-06-01" }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": true, "detail": "Long-Term Benefit Trust structure", "source": "https://www.anthropic.com/news/the-long-term-benefit-trust", "lastUpdated": "2024-03-01" },
+      { "label": "Signed Seoul AI Safety Commitment", "status": true, "detail": "Signed May 2024", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment", "lastUpdated": "2024-05-21" },
+      { "label": "Submitted safety report to government", "status": true, "detail": "Reports to AISI and other bodies", "source": "https://www.anthropic.com/news", "lastUpdated": "2024-11-01" },
+      { "label": "Allows third-party audits", "status": true, "detail": "Supports external evaluation", "source": "https://www.anthropic.com/research", "lastUpdated": "2024-06-01" },
+      { "label": "Published employee safety concern process", "status": true, "detail": "Internal reporting mechanisms documented", "source": "https://www.anthropic.com/careers", "lastUpdated": "2024-06-01" }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Restricted", "detail": "Acceptable Use Policy restricts military applications", "source": "https://www.anthropic.com/aup" },
+      { "label": "Surveillance use", "value": "Banned", "detail": "Prohibited in AUP", "source": "https://www.anthropic.com/aup" },
+      { "label": "Open-source models", "value": "No", "detail": "Models are closed-source, API access only", "source": "https://www.anthropic.com" },
+      { "label": "Content filtering", "value": "Constitutional AI approach with built-in safety training", "detail": null, "source": "https://www.anthropic.com/research/constitutional-ai" }
+    ],
+    "incidents": [
+      { "date": "2024-08-10", "title": "Claude jailbreak via prompt injection", "description": "Researchers demonstrated multi-step prompt injection bypassing safety guardrails", "source": "https://incidentdatabase.ai", "companyResponse": "https://www.anthropic.com/research" }
+    ],
+    "timeline": [
+      { "date": "2024-10-15", "event": "Updated Responsible Scaling Policy", "source": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy" },
+      { "date": "2024-05-21", "event": "Signed Seoul AI Safety Commitment", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment" },
+      { "date": "2024-03-04", "event": "Released Claude 3 with updated model card", "source": "https://www.anthropic.com/news/claude-3-family" },
+      { "date": "2023-09-19", "event": "Published updated Responsible Scaling Policy", "source": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy" }
+    ]
+  },
+  {
+    "name": "Google DeepMind",
+    "slug": "google-deepmind",
+    "description": "Google's AI research lab formed by merging Google Brain and DeepMind in 2023. Develops Gemini models.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": true, "detail": "Frontier Safety Framework published", "source": "https://deepmind.google/discover/blog/an-approach-to-technical-ai-safety/", "lastUpdated": "2024-05-01" },
+      { "label": "Model Card / System Card", "status": true, "detail": "Gemini technical reports published", "source": "https://deepmind.google/technologies/gemini/", "lastUpdated": "2024-06-01" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Extensive benchmarks in technical reports", "source": "https://deepmind.google/technologies/gemini/", "lastUpdated": "2024-06-01" },
+      { "label": "Acceptable Use Policy", "status": true, "detail": "Google AI Principles and Terms of Service", "source": "https://ai.google/responsibility/principles/", "lastUpdated": "2024-01-01" }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": true, "detail": "External red teaming conducted", "source": "https://deepmind.google/discover/blog/", "lastUpdated": "2024-06-01" },
+      { "label": "CBRN risk evaluation done", "status": true, "detail": "Part of Frontier Safety Framework", "source": "https://deepmind.google/discover/blog/an-approach-to-technical-ai-safety/", "lastUpdated": "2024-05-01" },
+      { "label": "Pre-deployment safety eval published", "status": true, "detail": "Published in technical reports", "source": "https://deepmind.google/technologies/gemini/", "lastUpdated": "2024-06-01" },
+      { "label": "Participates in METR / ARC evals", "status": true, "detail": "Engages with external evaluators", "source": "https://deepmind.google/safety/", "lastUpdated": "2024-06-01" }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": true, "detail": "DeepMind Safety team and Google AI Ethics board", "source": "https://deepmind.google/safety/", "lastUpdated": "2024-01-01" },
+      { "label": "Signed Seoul AI Safety Commitment", "status": true, "detail": "Signed May 2024", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment", "lastUpdated": "2024-05-21" },
+      { "label": "Submitted safety report to government", "status": true, "detail": "Reports to AISI and other bodies", "source": "https://deepmind.google/safety/", "lastUpdated": "2024-11-01" },
+      { "label": "Allows third-party audits", "status": true, "detail": "Supports external audits", "source": "https://deepmind.google/safety/", "lastUpdated": "2024-06-01" },
+      { "label": "Published employee safety concern process", "status": true, "detail": "Google's internal reporting process", "source": "https://about.google/intl/en/", "lastUpdated": "2024-01-01" }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Restricted", "detail": "Google AI Principles prohibit weapons, allow some defense applications", "source": "https://ai.google/responsibility/principles/" },
+      { "label": "Surveillance use", "value": "Restricted", "detail": "Restricted under Google AI Principles", "source": "https://ai.google/responsibility/principles/" },
+      { "label": "Open-source models", "value": "Partial", "detail": "Gemma models are open-weight; Gemini is closed", "source": "https://ai.google.dev/gemma" },
+      { "label": "Content filtering", "value": "Multi-layer safety filters integrated into Gemini products", "detail": null, "source": "https://deepmind.google/safety/" }
+    ],
+    "incidents": [
+      { "date": "2024-02-22", "title": "Gemini image generation bias", "description": "Gemini image generation produced historically inaccurate depictions, generating diverse individuals in historical contexts where it was inappropriate", "source": "https://incidentdatabase.ai", "companyResponse": "https://blog.google/products/gemini/gemini-image-generation-issue/" },
+      { "date": "2024-05-30", "title": "AI Overview errors", "description": "Google AI Overviews provided inaccurate and potentially dangerous advice in search results", "source": "https://incidentdatabase.ai", "companyResponse": "https://blog.google/products/search/ai-overviews-update-may-2024/" }
+    ],
+    "timeline": [
+      { "date": "2024-06-01", "event": "Published Gemini 1.5 technical report with safety evaluations", "source": "https://deepmind.google/technologies/gemini/" },
+      { "date": "2024-05-21", "event": "Signed Seoul AI Safety Commitment", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment" },
+      { "date": "2024-05-01", "event": "Released Frontier Safety Framework", "source": "https://deepmind.google/discover/blog/an-approach-to-technical-ai-safety/" },
+      { "date": "2023-12-06", "event": "Released Gemini 1.0 with safety documentation", "source": "https://deepmind.google/technologies/gemini/" }
+    ]
+  },
+  {
+    "name": "Meta",
+    "slug": "meta",
+    "description": "Develops open-weight Llama models. Has taken an open-source approach to frontier AI development.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": false, "detail": "No formal responsible scaling policy published", "source": null, "lastUpdated": null },
+      { "label": "Model Card / System Card", "status": true, "detail": "Llama model cards published", "source": "https://ai.meta.com/llama/", "lastUpdated": "2024-07-23" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Included in Llama model cards", "source": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/", "lastUpdated": "2024-07-23" },
+      { "label": "Acceptable Use Policy", "status": true, "detail": "Llama Acceptable Use Policy", "source": "https://ai.meta.com/llama/use-policy/", "lastUpdated": "2024-07-23" }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": true, "detail": "External red teaming for Llama models", "source": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/", "lastUpdated": "2024-07-23" },
+      { "label": "CBRN risk evaluation done", "status": true, "detail": "CBRN evaluations conducted for Llama 3", "source": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/", "lastUpdated": "2024-07-23" },
+      { "label": "Pre-deployment safety eval published", "status": true, "detail": "Published in Llama papers", "source": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/", "lastUpdated": "2024-07-23" },
+      { "label": "Participates in METR / ARC evals", "status": false, "detail": "No public participation announced", "source": null, "lastUpdated": null }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": true, "detail": "Responsible AI team within Meta", "source": "https://ai.meta.com/responsible-ai/", "lastUpdated": "2024-01-01" },
+      { "label": "Signed Seoul AI Safety Commitment", "status": true, "detail": "Signed May 2024", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment", "lastUpdated": "2024-05-21" },
+      { "label": "Submitted safety report to government", "status": false, "detail": "No public reports submitted", "source": null, "lastUpdated": null },
+      { "label": "Allows third-party audits", "status": false, "detail": "Open-weight model, but no formal audit program", "source": null, "lastUpdated": null },
+      { "label": "Published employee safety concern process", "status": false, "detail": "No public AI-specific process", "source": null, "lastUpdated": null }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Restricted", "detail": "Llama AUP restricts military and warfare uses", "source": "https://ai.meta.com/llama/use-policy/" },
+      { "label": "Surveillance use", "value": "Banned", "detail": "Prohibited in Llama AUP", "source": "https://ai.meta.com/llama/use-policy/" },
+      { "label": "Open-source models", "value": "Yes", "detail": "Llama models released as open-weight", "source": "https://ai.meta.com/llama/" },
+      { "label": "Content filtering", "value": "Llama Guard safety classifier available alongside models", "detail": null, "source": "https://ai.meta.com/research/publications/llama-guard/" }
+    ],
+    "incidents": [
+      { "date": "2024-04-15", "title": "Llama misuse for misinformation", "description": "Open-weight Llama models used to generate political misinformation at scale", "source": "https://incidentdatabase.ai", "companyResponse": null }
+    ],
+    "timeline": [
+      { "date": "2024-07-23", "event": "Released Llama 3.1 with updated safety documentation", "source": "https://ai.meta.com/blog/meta-llama-3-1/" },
+      { "date": "2024-05-21", "event": "Signed Seoul AI Safety Commitment", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment" },
+      { "date": "2024-04-18", "event": "Released Llama 3 with model card and safety evaluations", "source": "https://ai.meta.com/llama/" },
+      { "date": "2023-07-18", "event": "Released Llama 2 as open-weight model", "source": "https://ai.meta.com/llama/" }
+    ]
+  },
+  {
+    "name": "DeepSeek",
+    "slug": "deepseek",
+    "description": "Chinese AI research lab known for efficient open-weight models including DeepSeek-V2 and DeepSeek-Coder.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": false, "detail": "No formal scaling policy published", "source": null, "lastUpdated": null },
+      { "label": "Model Card / System Card", "status": true, "detail": "Technical reports published with model releases", "source": "https://arxiv.org/abs/2401.02954", "lastUpdated": "2024-05-01" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Included in technical reports", "source": "https://arxiv.org/abs/2401.02954", "lastUpdated": "2024-05-01" },
+      { "label": "Acceptable Use Policy", "status": false, "detail": "No comprehensive AUP published", "source": null, "lastUpdated": null }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": false, "detail": "No public third-party red team announced", "source": null, "lastUpdated": null },
+      { "label": "CBRN risk evaluation done", "status": false, "detail": "No public CBRN evaluation", "source": null, "lastUpdated": null },
+      { "label": "Pre-deployment safety eval published", "status": false, "detail": "Limited safety evaluations in papers", "source": null, "lastUpdated": null },
+      { "label": "Participates in METR / ARC evals", "status": false, "detail": "No participation announced", "source": null, "lastUpdated": null }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": false, "detail": "No public safety board", "source": null, "lastUpdated": null },
+      { "label": "Signed Seoul AI Safety Commitment", "status": false, "detail": "Did not sign", "source": null, "lastUpdated": null },
+      { "label": "Submitted safety report to government", "status": null, "detail": "May comply with Chinese AI regulations", "source": null, "lastUpdated": null },
+      { "label": "Allows third-party audits", "status": false, "detail": "No formal audit program", "source": null, "lastUpdated": null },
+      { "label": "Published employee safety concern process", "status": false, "detail": "No public process", "source": null, "lastUpdated": null }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Unknown", "detail": "No public policy on military use", "source": null },
+      { "label": "Surveillance use", "value": "Unknown", "detail": "No public policy", "source": null },
+      { "label": "Open-source models", "value": "Yes", "detail": "DeepSeek models released as open-weight", "source": "https://github.com/deepseek-ai" },
+      { "label": "Content filtering", "value": "Basic content filtering with Chinese regulatory compliance", "detail": null, "source": "https://github.com/deepseek-ai" }
+    ],
+    "incidents": [
+      { "date": "2024-06-01", "title": "Content filtering bypass", "description": "Researchers demonstrated bypassing content safety filters on DeepSeek models", "source": "https://incidentdatabase.ai", "companyResponse": null }
+    ],
+    "timeline": [
+      { "date": "2024-05-01", "event": "Released DeepSeek-V2 with technical report", "source": "https://arxiv.org/abs/2401.02954" },
+      { "date": "2024-01-05", "event": "Released DeepSeek-Coder with benchmarks", "source": "https://github.com/deepseek-ai" },
+      { "date": "2023-11-01", "event": "Founded and released first models", "source": "https://github.com/deepseek-ai" }
+    ]
+  },
+  {
+    "name": "Alibaba (Qwen)",
+    "slug": "alibaba-qwen",
+    "description": "Alibaba Cloud's AI division developing the Qwen series of large language models.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": false, "detail": "No formal scaling policy published", "source": null, "lastUpdated": null },
+      { "label": "Model Card / System Card", "status": true, "detail": "Qwen technical reports published", "source": "https://arxiv.org/abs/2309.16609", "lastUpdated": "2024-06-01" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Included in technical reports", "source": "https://arxiv.org/abs/2309.16609", "lastUpdated": "2024-06-01" },
+      { "label": "Acceptable Use Policy", "status": false, "detail": "No comprehensive English-language AUP", "source": null, "lastUpdated": null }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": false, "detail": "No public third-party red team", "source": null, "lastUpdated": null },
+      { "label": "CBRN risk evaluation done", "status": false, "detail": "No public CBRN evaluation", "source": null, "lastUpdated": null },
+      { "label": "Pre-deployment safety eval published", "status": false, "detail": "Limited safety evaluations", "source": null, "lastUpdated": null },
+      { "label": "Participates in METR / ARC evals", "status": false, "detail": "No participation announced", "source": null, "lastUpdated": null }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": false, "detail": "No public independent safety board", "source": null, "lastUpdated": null },
+      { "label": "Signed Seoul AI Safety Commitment", "status": false, "detail": "Did not sign", "source": null, "lastUpdated": null },
+      { "label": "Submitted safety report to government", "status": null, "detail": "Complies with Chinese AI regulations", "source": null, "lastUpdated": null },
+      { "label": "Allows third-party audits", "status": false, "detail": "No formal audit program", "source": null, "lastUpdated": null },
+      { "label": "Published employee safety concern process", "status": false, "detail": "No public process", "source": null, "lastUpdated": null }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Unknown", "detail": "No public policy", "source": null },
+      { "label": "Surveillance use", "value": "Unknown", "detail": "No public policy", "source": null },
+      { "label": "Open-source models", "value": "Yes", "detail": "Qwen models released as open-weight", "source": "https://github.com/QwenLM" },
+      { "label": "Content filtering", "value": "Content filtering aligned with Chinese regulatory requirements", "detail": null, "source": "https://github.com/QwenLM" }
+    ],
+    "incidents": [],
+    "timeline": [
+      { "date": "2024-06-01", "event": "Released Qwen2 model family", "source": "https://github.com/QwenLM" },
+      { "date": "2023-09-25", "event": "Released Qwen with technical report", "source": "https://arxiv.org/abs/2309.16609" }
+    ]
+  },
+  {
+    "name": "xAI",
+    "slug": "xai",
+    "description": "Elon Musk's AI company developing the Grok series of models, integrated with the X (Twitter) platform.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": false, "detail": "No formal scaling policy published", "source": null, "lastUpdated": null },
+      { "label": "Model Card / System Card", "status": false, "detail": "No formal model card published", "source": null, "lastUpdated": null },
+      { "label": "Published safety benchmark results", "status": false, "detail": "Limited benchmark data published", "source": null, "lastUpdated": null },
+      { "label": "Acceptable Use Policy", "status": true, "detail": "Terms of service for Grok", "source": "https://x.ai/legal/terms-of-service", "lastUpdated": "2024-03-01" }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": false, "detail": "No public third-party red team", "source": null, "lastUpdated": null },
+      { "label": "CBRN risk evaluation done", "status": false, "detail": "No public CBRN evaluation", "source": null, "lastUpdated": null },
+      { "label": "Pre-deployment safety eval published", "status": false, "detail": "No public safety evaluations", "source": null, "lastUpdated": null },
+      { "label": "Participates in METR / ARC evals", "status": false, "detail": "No participation announced", "source": null, "lastUpdated": null }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": false, "detail": "No public safety board", "source": null, "lastUpdated": null },
+      { "label": "Signed Seoul AI Safety Commitment", "status": false, "detail": "Did not sign", "source": null, "lastUpdated": null },
+      { "label": "Submitted safety report to government", "status": false, "detail": "No public reports", "source": null, "lastUpdated": null },
+      { "label": "Allows third-party audits", "status": false, "detail": "No formal audit program", "source": null, "lastUpdated": null },
+      { "label": "Published employee safety concern process", "status": false, "detail": "No public process", "source": null, "lastUpdated": null }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Unknown", "detail": "No public policy on military use", "source": null },
+      { "label": "Surveillance use", "value": "Unknown", "detail": "No public policy", "source": null },
+      { "label": "Open-source models", "value": "Yes", "detail": "Grok-1 released as open-weight", "source": "https://github.com/xai-org/grok-1" },
+      { "label": "Content filtering", "value": "Minimal content filtering; marketed as less restrictive alternative", "detail": null, "source": "https://x.ai" }
+    ],
+    "incidents": [
+      { "date": "2024-08-01", "title": "Grok generates misleading election content", "description": "Grok chatbot on X generated misleading information about election candidates", "source": "https://incidentdatabase.ai", "companyResponse": null }
+    ],
+    "timeline": [
+      { "date": "2024-08-01", "event": "Released Grok-2 on X platform", "source": "https://x.ai" },
+      { "date": "2024-03-17", "event": "Open-sourced Grok-1 model weights", "source": "https://github.com/xai-org/grok-1" },
+      { "date": "2023-11-04", "event": "Launched Grok-1 on X Premium", "source": "https://x.ai" },
+      { "date": "2023-07-12", "event": "xAI founded by Elon Musk", "source": "https://x.ai" }
+    ]
+  },
+  {
+    "name": "Mistral",
+    "slug": "mistral",
+    "description": "French AI company building open-weight and commercial models. Known for efficient model architectures.",
+    "safetyDocuments": [
+      { "label": "Responsible Scaling / Safety Policy", "status": false, "detail": "No formal scaling policy published", "source": null, "lastUpdated": null },
+      { "label": "Model Card / System Card", "status": true, "detail": "Model documentation on Mistral platform", "source": "https://docs.mistral.ai/", "lastUpdated": "2024-09-01" },
+      { "label": "Published safety benchmark results", "status": true, "detail": "Benchmarks included in model releases", "source": "https://mistral.ai/news/", "lastUpdated": "2024-09-01" },
+      { "label": "Acceptable Use Policy", "status": true, "detail": "Terms of service and usage policies", "source": "https://mistral.ai/terms/", "lastUpdated": "2024-06-01" }
+    ],
+    "testingAndEvaluation": [
+      { "label": "Third-party red-team conducted", "status": false, "detail": "No public third-party red team announced", "source": null, "lastUpdated": null },
+      { "label": "CBRN risk evaluation done", "status": false, "detail": "No public CBRN evaluation", "source": null, "lastUpdated": null },
+      { "label": "Pre-deployment safety eval published", "status": false, "detail": "Limited pre-deployment evaluations published", "source": null, "lastUpdated": null },
+      { "label": "Participates in METR / ARC evals", "status": false, "detail": "No participation announced", "source": null, "lastUpdated": null }
+    ],
+    "governance": [
+      { "label": "Independent safety board/team", "status": false, "detail": "No public safety board", "source": null, "lastUpdated": null },
+      { "label": "Signed Seoul AI Safety Commitment", "status": true, "detail": "Signed May 2024", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment", "lastUpdated": "2024-05-21" },
+      { "label": "Submitted safety report to government", "status": false, "detail": "No public reports", "source": null, "lastUpdated": null },
+      { "label": "Allows third-party audits", "status": false, "detail": "No formal audit program", "source": null, "lastUpdated": null },
+      { "label": "Published employee safety concern process", "status": false, "detail": "No public process", "source": null, "lastUpdated": null }
+    ],
+    "policyPositions": [
+      { "label": "Military use", "value": "Unknown", "detail": "No specific public policy", "source": null },
+      { "label": "Surveillance use", "value": "Unknown", "detail": "No specific public policy", "source": null },
+      { "label": "Open-source models", "value": "Partial", "detail": "Mistral 7B and Mixtral are open-weight; some models are commercial only", "source": "https://mistral.ai/technology/" },
+      { "label": "Content filtering", "value": "Moderation endpoint available; models have safety fine-tuning", "detail": null, "source": "https://docs.mistral.ai/" }
+    ],
+    "incidents": [],
+    "timeline": [
+      { "date": "2024-09-01", "event": "Released Mistral Large 2", "source": "https://mistral.ai/news/" },
+      { "date": "2024-05-21", "event": "Signed Seoul AI Safety Commitment", "source": "https://www.gov.uk/government/publications/seoul-ai-safety-commitment" },
+      { "date": "2024-02-26", "event": "Released Mistral Large and Le Chat platform", "source": "https://mistral.ai/news/" },
+      { "date": "2023-12-11", "event": "Released Mixtral 8x7B as open-weight", "source": "https://mistral.ai/news/mixtral-of-experts/" }
+    ]
+  }
+]
