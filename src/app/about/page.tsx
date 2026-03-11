@@ -105,16 +105,6 @@ export default function AboutPage() {
         </ul>
       </section>
 
-      <section>
-        <h2 className="font-mono text-xl font-semibold mb-4 text-accent">
-          Contributing
-        </h2>
-        <p className="text-muted leading-relaxed">
-          If you find inaccurate information or have sourced updates, we welcome
-          corrections. All submissions must include a verifiable primary source
-          link. Contact us or submit a pull request to our public repository.
-        </p>
-      </section>
     </div>
   );
 }
