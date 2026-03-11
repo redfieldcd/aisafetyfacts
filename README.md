@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Safety Facts
 
-## Getting Started
+**Fact-based, source-linked AI safety transparency dashboard.**
 
-First, run the development server:
+No opinions. No grades. Just verifiable facts about AI company safety practices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌐 **[aisafetyfacts.org](https://aisafetyfacts.org)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What We Track
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Safety practices of 8 major AI companies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- OpenAI
+- Anthropic
+- Google DeepMind
+- Meta
+- DeepSeek
+- Alibaba / Qwen
+- xAI
+- Mistral AI
 
-## Learn More
+## Data Categories
 
-To learn more about Next.js, take a look at the following resources:
+| Category | What's tracked |
+|---|---|
+| **Safety Documents** | Published policies, model cards, safety frameworks |
+| **Testing & Evaluation** | Third-party red-teaming, CBRN evaluations, safety benchmarks |
+| **Governance** | Independent safety boards, government commitments, audit practices |
+| **Policy Positions** | Military use, open-source stance, content filtering |
+| **Incident History** | Reported safety incidents and company responses |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Every fact links to its primary source. If we can't verify it, we mark it as unknown.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/) 14+ (App Router)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Deployed on [Vercel](https://vercel.com/)
+- Data stored as JSON (no database)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Found an error? Have a sourced update? 
+
+1. Fork this repo
+2. Edit `data/companies.json`
+3. **Every fact must include a source URL**
+4. Submit a pull request
+
+We accept corrections and additions, not opinions.
+
+## License
+
+MIT — see [LICENSE](LICENSE)
+
+---
+
+*AI Safety Facts is an independent project. Not affiliated with any AI company.*
