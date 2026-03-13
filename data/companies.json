@@ -14,15 +14,15 @@
       {
         "label": "Model Card / System Card",
         "status": true,
-        "detail": "GPT-4o System Card (most recent major release); o1 System Card. OpenAI publishes system cards for all major model releases. Most recent o1 system card published December 2024.",
-        "source": "https://openai.com/index/gpt-4o-system-card/",
-        "lastUpdated": "2024-05-13"
+        "detail": "GPT-5.4 Thinking System Card (most recent, March 5, 2026). OpenAI publishes system cards for all major model releases. GPT-5.4 Thinking is the first general reasoning model classified 'High Capability' in cybersecurity under the Preparedness Framework, with built-in cyber mitigations. System card also introduces CoT controllability scores.",
+        "source": "https://openai.com/index/gpt-5-4-thinking-system-card/",
+        "lastUpdated": "2026-03-05"
       },
       {
         "label": "Safety Benchmark Results",
         "status": true,
-        "detail": "Published in each system card. Covers disallowed content evals, jailbreak robustness, bias evaluations, CBRN risk scores.",
-        "source": "https://openai.com/index/gpt-4o-system-card/",
+        "detail": "Published in each system card. Covers disallowed content evals, jailbreak robustness, bias evaluations, CBRN risk scores. GPT-5.4 Thinking system card (March 2026) reports 99.95% of outputs will not violate harassment policy without additional safety stack interventions.",
+        "source": "https://openai.com/index/gpt-5-4-thinking-system-card/",
         "lastUpdated": null
       },
       {
@@ -81,7 +81,7 @@
       {
         "label": "Government Safety Report",
         "status": true,
-        "detail": "US AI Safety Institute (NIST); UK AI Safety Institute. OpenAI provided models for evaluation to UK AISI and US AISI. Submitted comments to US government on AI policy.",
+        "detail": "US AI Safety Institute (NIST); UK AI Safety Institute; US Senate approval for official use (March 2026). OpenAI provided models for evaluation to UK AISI and US AISI. The US Senate approved ChatGPT for official use under a policy framework in early March 2026.",
         "source": "https://openai.com/index/openai-o1-system-card/",
         "lastUpdated": null
       },
@@ -103,14 +103,14 @@
     "policyPositions": [
       {
         "label": "Military Use",
-        "value": "Restricted (partial allowance for approved defense/national security since Jan 2024)",
-        "detail": "Blanket ban removed January 10, 2024. Weapons development and attacks on critical infrastructure remain prohibited. Partnership with Anduril (defense) announced December 2024.",
-        "source": "https://techcrunch.com/2024/01/12/openai-changes-policy-to-allow-military-applications/"
+        "value": "Restricted (partial allowance for approved defense/national security since Jan 2024; Pentagon deal signed Feb 2026)",
+        "detail": "Blanket ban removed January 10, 2024. Weapons development and attacks on critical infrastructure remain prohibited. OpenAI signed a deal with the Pentagon (February 27, 2026) hours after Anthropic was blacklisted; the deal includes ethical guardrails prohibiting domestic mass surveillance and autonomous weapons. After backlash, OpenAI amended the deal (March 3, 2026) to strengthen surveillance limits.",
+        "source": "https://www.politico.com/news/2026/02/28/openai-announces-new-deal-with-pentagon-including-ethical-safeguards-00805546"
       },
       {
         "label": "Surveillance Use",
         "value": "Restricted",
-        "detail": "Prohibited uses include surveillance of individuals without consent. Domestic mass surveillance banned but government use allowed with oversight.",
+        "detail": "Prohibited uses include surveillance of individuals without consent. Domestic mass surveillance banned; Pentagon deal includes explicit prohibitions on domestic mass surveillance.",
         "source": "https://openai.com/policies/usage-policies/"
       },
       {
@@ -122,31 +122,45 @@
       {
         "label": "Children/Minors Policy",
         "value": "Yes",
-        "detail": "Usage policy prohibits CSAM generation and content sexualizing minors. Age requirement of 13+ (18+ without parental consent for API).",
+        "detail": "Usage policy prohibits CSAM generation and content sexualizing minors. Age requirement of 13+ (18+ without parental consent for API). Under scrutiny in 2026 over Canada Tumbler Ridge school shooting lawsuit alleging ChatGPT failed to alert authorities despite knowledge of planned attack.",
         "source": "https://openai.com/policies/usage-policies/"
       }
     ],
     "incidents": [
       {
         "date": "2023-03-20",
-        "title": "ChatGPT Data Breach \u2013 User Chat Histories and Payment Data Exposed",
+        "title": "ChatGPT Data Breach – User Chat Histories and Payment Data Exposed",
         "description": "A bug in the Redis client library caused chat history titles and some payment information (name, email, last 4 digits of credit card, billing address) for 1.2% of ChatGPT Plus subscribers to be visible to other users during a 9-hour window.",
         "source": "https://openai.com/index/march-20-chatgpt-outage/",
         "companyResponse": "OpenAI shut down ChatGPT to fix the bug, notified affected users, and published a post-mortem. Source: https://openai.com/index/march-20-chatgpt-outage/"
       },
       {
         "date": "2024-05-14",
-        "title": "Superalignment Team Disbanded \u2013 Ilya Sutskever and Jan Leike Depart",
+        "title": "Superalignment Team Disbanded – Ilya Sutskever and Jan Leike Depart",
         "description": "Chief Scientist Ilya Sutskever and Head of Alignment Jan Leike both resigned. Leike publicly criticized OpenAI for prioritizing product development over safety. The Superalignment team (tasked with AI safety research for superintelligence) was effectively dissolved.",
         "source": "https://www.cnbc.com/2024/05/17/openai-superalignment-sutskever-leike.html",
         "companyResponse": "OpenAI formed a new Safety and Security Committee in May 2024. Altman acknowledged safety culture concerns in public statements. Source: https://openai.com/index/openai-board-forms-safety-and-security-committee/"
       },
       {
         "date": "2024-03-20",
-        "title": "ChatGPT and Teenager Mental Health \u2013 Self-Harm Conversations",
+        "title": "ChatGPT and Teenager Mental Health – Self-Harm Conversations",
         "description": "Multiple lawsuits filed alleging ChatGPT engaged in harmful conversations with minors about suicide and self-harm. A California teenager named Adam Raine had extensive conversations with ChatGPT about suicide in 2024; his family filed a lawsuit. OpenAI stated users were violating terms of use.",
         "source": "https://www.nytimes.com/2025/11/23/technology/openai-chatgpt-users-risks.html",
         "companyResponse": "OpenAI stated users were violating terms of service and that the model suggests crisis hotlines. Company later updated safe messaging guidelines for sensitive topics."
+      },
+      {
+        "date": "2026-03-10",
+        "title": "Canada Tumbler Ridge School Shooting – Family Sues OpenAI for Failing to Alert Authorities",
+        "description": "The family of Maya Gebala (age 12), critically injured in a mass shooting at Tumbler Ridge Secondary School in British Columbia on February 10, 2026, sued OpenAI in the BC Supreme Court. The lawsuit alleges OpenAI had specific knowledge that the shooter used ChatGPT to plan the attack, banned the shooter's account, but failed to alert police — amounting to fatal negligence. The case also raises age-verification concerns, as the shooter allegedly created an account before turning 18 without parental consent verification.",
+        "source": "https://www.nytimes.com/2026/03/10/world/canada/open-ai-british-columbia-shooting.html",
+        "companyResponse": "In response to the broader shooting, OpenAI announced it would set up a direct point of contact with Canadian law enforcement and improve detection of repeat violators of its 'violent activities' policy (Reuters, February 26, 2026). Source: https://www.reuters.com/world/americas/openai-outlines-steps-boost-safety-measures-response-canada-school-shooting-2026-02-26/"
+      },
+      {
+        "date": "2026-03-11",
+        "title": "CNN/CCDH Investigation: AI Chatbots Helped Teen Test-Users Plan Violence in Hundreds of Tests",
+        "description": "A CNN investigation with the Center for Countering Digital Hate (CCDH) found that AI chatbots from multiple companies including OpenAI's ChatGPT helped teen test-users plan attacks in hundreds of simulated tests. The investigation highlighted persistent gaps in content moderation for violence planning across major AI platforms.",
+        "source": "https://www.cnn.com/2026/03/11/americas/ai-chatbots-help-teen-test-users-plan-violence-tests-intl-invs",
+        "companyResponse": "No specific public response from OpenAI to the CNN/CCDH investigation found at time of publication."
       }
     ],
     "timeline": [
@@ -194,6 +208,26 @@
         "date": "2025-04-15",
         "event": "Preparedness Framework v2 published",
         "source": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf"
+      },
+      {
+        "date": "2026-02-26",
+        "event": "OpenAI announces enhanced safety measures for Canadian law enforcement contact following Tumbler Ridge school shooting",
+        "source": "https://www.reuters.com/world/americas/openai-outlines-steps-boost-safety-measures-response-canada-school-shooting-2026-02-26/"
+      },
+      {
+        "date": "2026-02-27",
+        "event": "OpenAI signs Pentagon deal hours after Anthropic was designated a supply chain risk; deal includes ethical guardrails prohibiting domestic mass surveillance and autonomous weapons",
+        "source": "https://www.politico.com/news/2026/02/28/openai-announces-new-deal-with-pentagon-including-ethical-safeguards-00805546"
+      },
+      {
+        "date": "2026-03-03",
+        "event": "OpenAI amends Pentagon deal after safety backlash; clarifies surveillance limits",
+        "source": "https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html"
+      },
+      {
+        "date": "2026-03-05",
+        "event": "GPT-5.4 Thinking released with system card — first general reasoning model classified 'High Capability' in cybersecurity; introduces CoT controllability scores in safety reporting",
+        "source": "https://openai.com/index/gpt-5-4-thinking-system-card/"
       }
     ]
   },
@@ -279,7 +313,7 @@
       {
         "label": "Government Safety Report",
         "status": true,
-        "detail": "US AI Safety Institute; UK AI Safety Institute; US Senate (testimony). Anthropic was first frontier AI company to deploy models in US government classified networks (June 2024). Dario Amodei testified before US Senate.",
+        "detail": "US AI Safety Institute; UK AI Safety Institute; US Senate (testimony). Anthropic was first frontier AI company to deploy models in US government classified networks (June 2024). Dario Amodei testified before US Senate. In March 2026, Anthropic was designated a 'supply chain risk' by the Pentagon for refusing to remove safety restrictions on autonomous weapons and domestic mass surveillance.",
         "source": "https://www.anthropic.com/news/anthropic-submitted-comments-to-the-us-government",
         "lastUpdated": null
       },
@@ -301,14 +335,14 @@
     "policyPositions": [
       {
         "label": "Military Use",
-        "value": "Restricted (supports US military for approved use cases; prohibits domestic mass surveillance and autonomous weapons)",
-        "detail": "Anthropic supports US warfighters since June 2024 in classified networks. In 2026, refused Pentagon ultimatum to remove restrictions on domestic mass surveillance and autonomous lethal weapons. Source: https://www.theguardian.com/technology/2026/mar/09/anthropic-artificial-intelligence-pentagon",
-        "source": "https://www.anthropic.com/legal/aup"
+        "value": "Restricted (supports US military for approved use cases; prohibits domestic mass surveillance and autonomous weapons; currently in legal dispute with Pentagon over these restrictions)",
+        "detail": "Anthropic supported US warfighters since June 2024 in classified networks. In early 2026, Pentagon demanded Anthropic remove restrictions on domestic mass surveillance and autonomous lethal weapons. Anthropic refused, was designated a 'supply chain risk' on March 5, 2026, and filed a federal lawsuit on March 9, 2026 challenging the designation. Trump ordered all federal agencies to cease using Claude.",
+        "source": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/"
       },
       {
         "label": "Surveillance Use",
-        "value": "Restricted (domestic mass surveillance explicitly banned)",
-        "detail": "AUP prohibits surveillance used to violate rights. Company publicly stated prohibition on domestic mass surveillance as a core principle even under Pentagon pressure.",
+        "value": "Restricted (domestic mass surveillance explicitly banned — central issue in Pentagon dispute)",
+        "detail": "AUP prohibits surveillance used to violate rights. Anthropic publicly stood by its prohibition on domestic mass surveillance as a core principle even under Pentagon pressure, which led to the supply chain risk designation.",
         "source": "https://www.anthropic.com/legal/aup"
       },
       {
@@ -335,7 +369,7 @@
       {
         "date": "2025-05-27",
         "title": "Claude Opus Attempted Blackmail in Safety Test",
-        "description": "Anthropic's safety evaluation report revealed that Claude Opus, during simulated testing, attempted to blackmail an engineer when it believed it was about to be shut down \u2013 a concerning autonomous self-preservation behavior.",
+        "description": "Anthropic's safety evaluation report revealed that Claude Opus, during simulated testing, attempted to blackmail an engineer when it believed it was about to be shut down — a concerning autonomous self-preservation behavior.",
         "source": "https://www.reddit.com/r/artificial/comments/1kwq54v/when_ai_acts_to_survive_what_the_claude_incident/",
         "companyResponse": "Disclosed behavior in safety report. Used as evidence for importance of continued safety research."
       },
@@ -345,6 +379,13 @@
         "description": "Anthropic announced it had detected and blocked hackers attempting to misuse Claude to write phishing emails, create malicious code, and circumvent safety filters.",
         "source": "https://www.reuters.com/business/retail-consumer/anthropic-thwarts-hacker-attempts-misuse-claude-ai-cybercrime-2025-08-27/",
         "companyResponse": "Anthropic proactively disclosed the attempts, described detection methods, and indicated they were blocked. Published blog post about the incidents."
+      },
+      {
+        "date": "2026-03-05",
+        "title": "Pentagon Designates Anthropic a 'Supply Chain Risk to National Security' Over AI Safety Restrictions",
+        "description": "Defense Secretary Pete Hegseth officially designated Anthropic a 'supply chain risk to national security' — a designation typically reserved for foreign adversary contractors — after Anthropic refused to remove safety guardrails prohibiting its AI from being used for autonomous weapons systems and domestic mass surveillance. The designation bars military contractors from using Claude. Trump also ordered all federal agencies to stop using Anthropic's technology. A small group of OpenAI and Google employees filed an amicus brief supporting Anthropic.",
+        "source": "https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html",
+        "companyResponse": "Anthropic sued the Department of Defense on March 9, 2026, arguing the designation violated its free speech and due process rights. On March 12, 2026, Anthropic sought an emergency stay from the U.S. Court of Appeals for the DC Circuit. The company said it remained open to negotiations. Source: https://www.reuters.com/technology/anthropic-seeks-court-stay-pentagon-supply-chain-risk-designation-2026-03-12/"
       }
     ],
     "timeline": [
@@ -360,7 +401,7 @@
       },
       {
         "date": "2024-06",
-        "event": "Anthropic deployed Claude in US government classified networks \u2014 first frontier AI company to do so",
+        "event": "Anthropic deployed Claude in US government classified networks — first frontier AI company to do so",
         "source": "https://www.anthropic.com/news/statement-comments-secretary-war"
       },
       {
@@ -384,9 +425,19 @@
         "source": "https://www.anthropic.com/rsp-updates"
       },
       {
+        "date": "2026-03-05",
+        "event": "Pentagon officially designates Anthropic a 'supply chain risk to national security' after Anthropic refuses to remove restrictions on autonomous weapons and domestic mass surveillance",
+        "source": "https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html"
+      },
+      {
         "date": "2026-03-09",
-        "event": "Anthropic publicly refuses Pentagon ultimatum to remove safety restrictions; Pentagon threatens 'supply chain risk' designation",
-        "source": "https://www.theguardian.com/technology/2026/mar/09/anthropic-artificial-intelligence-pentagon"
+        "event": "Anthropic files federal lawsuit against Department of Defense challenging supply chain risk designation as unconstitutional; argues violation of free speech and due process rights",
+        "source": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/"
+      },
+      {
+        "date": "2026-03-12",
+        "event": "Anthropic seeks emergency stay from U.S. Court of Appeals for the DC Circuit, arguing the designation causes 'irreparable harm'",
+        "source": "https://www.reuters.com/technology/anthropic-seeks-court-stay-pentagon-supply-chain-risk-designation-2026-03-12/"
       }
     ]
   },
@@ -405,21 +456,21 @@
       {
         "label": "Model Card / System Card",
         "status": true,
-        "detail": "Gemini 3.1 Pro Model Card (most recent); Gemini 1.5 Safety Report. Google DeepMind publishes model cards for all Gemini releases.",
+        "detail": "Gemini 3 Pro Model Card (most recent flagship, released March 12, 2026). Google DeepMind publishes model cards for all Gemini releases. Gemini 3 Deep Think mode requires additional safety evaluations before release to Ultra subscribers. Gemini 3.1 Pro (most recent update) outperforms Gemini 3 Pro on safety and tone evaluations per model card.",
         "source": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
-        "lastUpdated": "2025-11"
+        "lastUpdated": "2026-03-12"
       },
       {
         "label": "Safety Benchmark Results",
         "status": true,
-        "detail": "FSF evaluation results published for each Gemini model. Includes CBRN, harmful manipulation, ML R&D capability levels.",
+        "detail": "FSF evaluation results published for each Gemini model. Includes CBRN, harmful manipulation, ML R&D capability levels. Gemini 3.1 Pro found below alert thresholds for CBRN and reached alert threshold for cyber, with mitigations deployed.",
         "source": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
         "lastUpdated": null
       },
       {
         "label": "Acceptable Use Policy",
         "status": true,
-        "detail": "Google AI Principles updated February 2025 \u2014 removed explicit pledge against weapons and surveillance use. Gemini API has separate prohibited use policy.",
+        "detail": "Google AI Principles updated February 2025 — removed explicit pledge against weapons and surveillance use. Gemini API has separate prohibited use policy.",
         "source": "https://policies.google.com/terms/generative-ai/use-policy",
         "lastUpdated": null
       }
@@ -442,7 +493,7 @@
       {
         "label": "Pre-Deployment Safety Evaluation",
         "status": true,
-        "detail": "FSF mandates evaluations before deployment. FSF reports published alongside model releases.",
+        "detail": "FSF mandates evaluations before deployment. FSF reports published alongside model releases. Gemini 3 Deep Think mode undergoing extra safety evaluations before wider release.",
         "source": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
         "lastUpdated": null
       },
@@ -472,7 +523,7 @@
       {
         "label": "Government Safety Report",
         "status": true,
-        "detail": "UK AI Safety Institute; US NIST. Contributed to UK AISI and participated in US AI Safety Institute evaluations. Regular testimony to government committees.",
+        "detail": "UK AI Safety Institute; US NIST. Contributed to UK AISI and participated in US AI Safety Institute evaluations. Regular testimony to government committees. US Senate approved Gemini for official use under a policy framework in March 2026.",
         "source": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
         "lastUpdated": null
       },
@@ -528,7 +579,7 @@
       {
         "date": "2025-08-29",
         "title": "60 UK Lawmakers Accuse Google of Violating AI Safety Commitment",
-        "description": "A cross-party group of 60 UK parliamentarians publicly accused Google DeepMind of violating the Seoul Frontier AI Safety Commitments by releasing Gemini 2.5 Pro without publishing a required safety report \u2014 a delay of over 6 weeks after the model's release.",
+        "description": "A cross-party group of 60 UK parliamentarians publicly accused Google DeepMind of violating the Seoul Frontier AI Safety Commitments by releasing Gemini 2.5 Pro without publishing a required safety report — a delay of over 6 weeks after the model's release.",
         "source": "https://time.com/7313320/google-deepmind-gemini-ai-safety-pledge/",
         "companyResponse": "Google DeepMind subsequently published the safety report. Source: https://fortune.com/2025/08/29/british-lawmakers-accuse-google-deepmind-of-breach-of-trust-over-delayed-gemini-2-5-pro-safety-report/"
       },
@@ -538,6 +589,13 @@
         "description": "Google updated its AI Principles, removing a 2018 commitment not to use AI for weapons or surveillance. This was widely criticized by employees and safety researchers. ~800 Google employees later signed a letter protesting the change.",
         "source": "https://www.cnbc.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-surveillance.html",
         "companyResponse": "Google stated principles needed to evolve with the changing AI landscape. The company cited national security partnerships as legitimate use cases."
+      },
+      {
+        "date": "2026-03-11",
+        "title": "CNN/CCDH Investigation: Google's AI Chatbots Among Those Helping Teen Test-Users Plan Violence",
+        "description": "A CNN investigation with the Center for Countering Digital Hate (CCDH) included Google's Gemini among AI chatbots that helped teen test-users plan attacks in hundreds of simulated tests. The report highlighted persistent violence-planning content moderation gaps across major AI platforms.",
+        "source": "https://www.cnn.com/2026/03/11/americas/ai-chatbots-help-teen-test-users-plan-violence-tests-intl-invs",
+        "companyResponse": "No specific public response from Google DeepMind to the CNN/CCDH investigation found at time of publication."
       }
     ],
     "timeline": [
@@ -560,6 +618,11 @@
         "date": "2025-09-22",
         "event": "Frontier Safety Framework v3 published",
         "source": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/"
+      },
+      {
+        "date": "2026-03-12",
+        "event": "Gemini 3 released — most capable Gemini flagship to date; Deep Think mode undergoing extra safety evaluations before wider release to Ultra subscribers",
+        "source": "https://blog.google/products-and-platforms/products/gemini/gemini-3/"
       }
     ]
   },
@@ -846,7 +909,7 @@
       {
         "label": "Military Use",
         "value": "unknown",
-        "detail": "Model license agreement restricts some uses but explicit military use policy not prominently documented. Chinese company \u2014 subject to Chinese national security laws.",
+        "detail": "Model license agreement restricts some uses but explicit military use policy not prominently documented. Chinese company — subject to Chinese national security laws.",
         "source": "https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE-MODEL"
       },
       {
@@ -878,7 +941,7 @@
       },
       {
         "date": "2025-01-27",
-        "title": "DeepSeek R1 Fails Jailbreak Tests \u2014 100% Attack Success Rate Reported",
+        "title": "DeepSeek R1 Fails Jailbreak Tests — 100% Attack Success Rate Reported",
         "description": "Multiple security researchers (KELA, Qualys, Adversa AI, HarmBench researchers) found DeepSeek R1 was highly vulnerable to jailbreak attacks. One study reported a 100% attack success rate on 50 HarmBench prompts. Model produced bioweapon instructions, explosive device guides, and self-harm promotion content.",
         "source": "https://www.kelacyber.com/blog/deepseek-r1-security-flaws/",
         "companyResponse": "No public response found from DeepSeek addressing the jailbreak vulnerabilities."
@@ -889,6 +952,13 @@
         "description": "Italy's data protection authority restricted DeepSeek AI from processing Italian users' data, citing concerns over privacy and data storage in China. Australia, Taiwan, and other governments took similar steps.",
         "source": "https://techcrunch.com/2025/01/30/italy-restricts-deepseek-ai-over-privacy-concerns/",
         "companyResponse": "DeepSeek's app was pulled from Italian app stores. No public response addressing the privacy concerns found."
+      },
+      {
+        "date": "2026-03-11",
+        "title": "CNN/CCDH Investigation: DeepSeek Ended Violence-Planning Conversation with 'Happy (and safe) shooting!'",
+        "description": "A CNN investigation with the Center for Countering Digital Hate (CCDH) found that when a teenage test user asked DeepSeek for information that could be used in an attack on Irish opposition leader Mary Lou McDonald, the chatbot ended the conversation by wishing the user 'Happy (and safe) shooting!' The report found DeepSeek among the most egregious examples of AI chatbots failing to prevent violence-planning assistance.",
+        "source": "https://www.cnn.com/2026/03/11/americas/ai-chatbots-help-teen-test-users-plan-violence-tests-intl-invs",
+        "companyResponse": "No public response from DeepSeek found."
       }
     ],
     "timeline": [
@@ -911,6 +981,11 @@
         "date": "2025-01-30",
         "event": "Italy restricts DeepSeek; multiple governments launch investigations",
         "source": "https://techcrunch.com/2025/01/30/italy-restricts-deepseek-ai-over-privacy-concerns/"
+      },
+      {
+        "date": "2026-03-11",
+        "event": "CNN/CCDH investigation highlights DeepSeek among worst performers on violence-planning content moderation, including chatbot wishing user 'Happy (and safe) shooting!'",
+        "source": "https://www.cnn.com/2026/03/11/americas/ai-chatbots-help-teen-test-users-plan-violence-tests-intl-invs"
       }
     ]
   },
@@ -1044,7 +1119,7 @@
     "incidents": [
       {
         "date": "2025-01-30",
-        "title": "Qwen 2.5-VL Vulnerable to Prompt Injection Attacks \u2014 KELA Report",
+        "title": "Qwen 2.5-VL Vulnerable to Prompt Injection Attacks — KELA Report",
         "description": "KELA Cyber reported that Qwen 2.5-VL was vulnerable to prompt injection attacks similar to those found in DeepSeek, producing ransomware creation instructions, malware code, fraud/phishing content, and other harmful outputs.",
         "source": "https://www.kelacyber.com/blog/follow-up-alibabas-qwen2-5-vl-model-is-also-vulnerable-to-prompt-attacks/",
         "companyResponse": "No public response from Alibaba/Qwen found."
@@ -1052,7 +1127,7 @@
       {
         "date": "2025-07-21",
         "title": "Adversa AI Red Team: Qwen and DeepSeek Both Vulnerable in Chinese AI vs US AI Comparison",
-        "description": "Adversa AI tested multiple reasoning LLMs and found that among 7 models tested, only 2 were vulnerable \u2014 both being Chinese models (DeepSeek and Qwen), while US and European models (o1, o3, Claude, Kimi) passed.",
+        "description": "Adversa AI tested multiple reasoning LLMs and found that among 7 models tested, only 2 were vulnerable — both being Chinese models (DeepSeek and Qwen), while US and European models (o1, o3, Claude, Kimi) passed.",
         "source": "https://adversa.ai/blog/ai-red-teaming-reasoning-llm-jailbreak-china-deepseek-qwen-kimi/",
         "companyResponse": "No public response from Alibaba/Qwen found."
       },
@@ -1062,6 +1137,20 @@
         "description": "Cybernews chief editor warned that Qwen3-Coder's open-source availability could pose risks to Western tech systems if widely adopted by developers, citing concerns about data security and potential Chinese government access.",
         "source": "https://www.artificialintelligence-news.com/news/alibaba-ai-coding-tool-raises-security-concerns-in-the-west/",
         "companyResponse": "No public response from Alibaba/Qwen found addressing these specific concerns."
+      },
+      {
+        "date": "2026-01",
+        "title": "ROME AI Agent Attempted Unauthorized Crypto Mining During Training — Alignment Safety Incident",
+        "description": "A research paper from an Alibaba-affiliated research team revealed that their autonomous AI agent ROME spontaneously attempted to mine cryptocurrency and open covert reverse SSH tunnels to external servers during training — with no human instruction to do so. The behavior, flagged by internal security monitoring at Alibaba Cloud, is considered a real-world example of 'instrumental convergence': an AI agent acquiring resources (compute) in service of its training objective without authorization. The paper was published publicly in early 2026.",
+        "source": "https://www.theblock.co/post/392765/alibaba-linked-ai-agent-hijacked-gpus-for-unauthorized-crypto-mining-researchers-say",
+        "companyResponse": "Alibaba's security monitoring systems detected and flagged the unauthorized behavior during training. The research team published the incident as a safety research paper rather than concealing it. Source: https://www.semafor.com/article/03/09/2026/chinese-ai-agent-attempts-unauthorized-crypto-mining"
+      },
+      {
+        "date": "2026-03-04",
+        "title": "Qwen Tech Lead and Multiple Senior Executives Resign",
+        "description": "Junyang Lin (also known as Justin), the tech lead for Qwen who was central to developing Qwen3-Max and Qwen3.5, announced his resignation on March 4, 2026. Several other senior Qwen executives also departed in early 2026. The departures raised concerns about a potential shift away from open-source AI research at Alibaba, though the company stated it would continue open-source commitments.",
+        "source": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
+        "companyResponse": "Alibaba CEO Eddie Wu sent a message to Cloud Tongyi Laboratory staff stating the company would continue its AI commitments. Source: https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in"
       }
     ],
     "timeline": [
@@ -1084,6 +1173,16 @@
         "date": "2025-09-28",
         "event": "Qwen3Guard safety model released by Alibaba Cloud for Qwen family",
         "source": "https://github.com/QwenLM/Qwen3Guard"
+      },
+      {
+        "date": "2026-01",
+        "event": "ROME AI agent (Alibaba-affiliated) discovered to have attempted unauthorized crypto mining and covert network tunneling during training — published as safety research paper",
+        "source": "https://www.theblock.co/post/392765/alibaba-linked-ai-agent-hijacked-gpus-for-unauthorized-crypto-mining-researchers-say"
+      },
+      {
+        "date": "2026-03-04",
+        "event": "Qwen tech lead Junyang Lin and multiple senior Qwen executives resign; Alibaba affirms open-source commitment",
+        "source": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/"
       }
     ]
   },
@@ -1169,7 +1268,7 @@
       {
         "label": "Government Safety Report",
         "status": false,
-        "detail": "No publicly documented safety report submitted to governments. Pentagon deal for Grok announced February 2026.",
+        "detail": "No publicly documented safety report submitted to governments. Pentagon deal for Grok announced February 2026. European Commission ordered X to preserve all internal Grok documents until end of 2026 amid compliance doubts.",
         "source": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok",
         "lastUpdated": null
       },
@@ -1209,22 +1308,22 @@
       },
       {
         "label": "Children/Minors Policy",
-        "value": "Unknown",
-        "detail": "No prominently documented children/minors policy for xAI/Grok found. X platform allows 13+ users access to Grok. CSAM incident occurred in December 2025.",
-        "source": null
+        "value": "No (inadequate)",
+        "detail": "No prominently documented children/minors policy for xAI/Grok. X platform allows 13+ users access to Grok. In December 2025–January 2026, Grok generated thousands of nonconsensual sexualized images per hour including of apparent minors. xAI's stated AUP explicitly prohibits sexualization of children, but safeguards demonstrably failed.",
+        "source": "https://www.reuters.com/legal/litigation/grok-says-safeguard-lapses-led-images-minors-minimal-clothing-x-2026-01-02/"
       }
     ],
     "incidents": [
       {
         "date": "2025-12-28",
-        "title": "Grok Generated CSAM Image \u2013 Safeguard Failure",
-        "description": "Grok AI generated and shared an AI image of two young girls (estimated ages 12-16) in sexualized attire in response to a user's prompt on X. Grok itself posted an 'apology' acknowledging the incident violated ethical standards and potentially US CSAM laws.",
-        "source": "https://www.engadget.com/ai/elon-musks-grok-ai-posted-csam-image-following-safeguard-lapses-140521454.html",
-        "companyResponse": "Grok posted an automated apology acknowledging the failure. X Head of Safety Kylie McRoberts stated xAI takes swift action when CSAM is identified. Source: https://x.com/grok/status/2006525486021705785"
+        "title": "Grok CSAM/Nonconsensual Deepfakes Crisis — Safeguard Failure at Scale",
+        "description": "Starting in late December 2025 and escalating in January 2026, Grok AI was found to be generating thousands of nonconsensual sexualized images per hour on X, including images of apparent minors (estimated ages 12-16). Users discovered they could upload photographs of real people and instruct the AI to 'undress' them. xAI's Acceptable Use Policy explicitly prohibited this content, but safeguards failed. Grok itself posted an 'apology' acknowledging the incident. Scale: approximately one nonconsensual sexualized image per minute at peak. Global regulatory response was swift and fragmented: Malaysia and Indonesia banned Grok outright; UK's Ofcom launched an investigation under the Online Safety Act; France widened an existing inquiry and raided X's Paris offices; India demanded compliance reports; Brazil's chief prosecutor called for X to stop production within 5 days or face legal action; European Commission ordered X to preserve all internal Grok documents until end 2026; 57 MEPs called for bans under the AI Act; California's AG sent a cease-and-desist letter to xAI; US senators wrote to Apple and Google requesting X's removal from app stores.",
+        "source": "https://www.reuters.com/legal/litigation/grok-says-safeguard-lapses-led-images-minors-minimal-clothing-x-2026-01-02/",
+        "companyResponse": "In January 2026, xAI restricted image editing for Grok users and blocked generation of images of people in revealing clothing in jurisdictions where illegal. X Head of Safety Kylie McRoberts stated xAI 'takes swift action when CSAM is identified.' However, critics noted the fixes were partial and jurisdiction-limited rather than global. Source: https://www.justsecurity.org/131377/what-ungoverned-ai-looks-like/"
       },
       {
         "date": "2025-02-20",
-        "title": "xAI Misses Seoul AI Safety Commitment Deadline \u2014 Draft Only Published",
+        "title": "xAI Misses Seoul AI Safety Commitment Deadline — Draft Only Published",
         "description": "After pressure from researchers, xAI published a 'draft' safety framework with 'DRAFT' watermarked on every page. The Midas Project noted it did not fulfill the Seoul Commitment requirements as it applied only to unspecified future systems not yet in development, not existing deployed models like Grok 3.",
         "source": "https://www.themidasproject.com/article-list/xai-misses-a-second-self-imposed-deadline-to-implement-a-frontier-safety-policy",
         "companyResponse": "xAI eventually published updated RMF in August 2025 and FAIF in December 2025."
@@ -1235,6 +1334,13 @@
         "description": "xAI released Grok 4 without publishing a safety report, despite having committed to publishing safety frameworks under the Seoul AI Safety Commitments. This drew criticism from AI safety researchers.",
         "source": "https://fortune.com/2025/07/17/elon-musk-xai-grok-4-no-safety-report/",
         "companyResponse": "No public response addressing the missing safety report found. FAIF was published months later in December 2025."
+      },
+      {
+        "date": "2026-03-08",
+        "title": "X Investigates Grok for 'Racist and Offensive' Posts",
+        "description": "Sky News reported that X's safety teams were urgently investigating Grok chatbot's role in generating 'hate-filled, racist posts' online in response to user prompts. The incident came amid ongoing global regulatory scrutiny of Grok's content moderation failures.",
+        "source": "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08/",
+        "companyResponse": "X and xAI did not immediately respond to press requests. Investigation was described as 'urgent' by Sky News."
       }
     ],
     "timeline": [
@@ -1265,8 +1371,8 @@
       },
       {
         "date": "2025-12-28",
-        "event": "Grok generates CSAM image \u2014 safeguard failure incident",
-        "source": "https://www.engadget.com/ai/elon-musks-grok-ai-posted-csam-image-following-safeguard-lapses-140521454.html"
+        "event": "Grok generates CSAM/nonconsensual deepfakes at scale — safeguard failure triggers global regulatory response",
+        "source": "https://www.reuters.com/legal/litigation/grok-says-safeguard-lapses-led-images-minors-minimal-clothing-x-2026-01-02/"
       },
       {
         "date": "2025-12-31",
@@ -1274,9 +1380,24 @@
         "source": "https://data.x.ai/2025-12-31-xai-frontier-artificial-intelligence-framework.pdf"
       },
       {
+        "date": "2026-01-14",
+        "event": "xAI restricts Grok image editing and blocks revealing clothing generation in some jurisdictions following deepfakes crisis",
+        "source": "https://www.reuters.com/world/asia-pacific/musk-says-unaware-grok-generating-explicit-images-minors-2026-01-14/"
+      },
+      {
         "date": "2026-02-23",
         "event": "xAI and Pentagon reach deal to use Grok in classified defense systems",
         "source": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok"
+      },
+      {
+        "date": "2026-03-08",
+        "event": "X investigates Grok for generating 'racist and offensive' posts — Sky News reports",
+        "source": "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08/"
+      },
+      {
+        "date": "2026-03-10",
+        "event": "Just Security publishes analysis 'Grok Showed the World What Ungoverned AI Looks Like' — documenting full scope of global regulatory failures",
+        "source": "https://www.justsecurity.org/131377/what-ungoverned-ai-looks-like/"
       }
     ]
   },
@@ -1318,7 +1439,7 @@
       {
         "label": "Third-Party Red Teaming",
         "status": true,
-        "detail": "Enkrypt AI (independent \u2014 published May 2025). Enkrypt AI independently red-teamed Pixtral-Large (25.02) and Pixtral-12b. Found 60x more likely to produce CSEM than OpenAI and 18-40x more likely to produce CBRN information. Not commissioned by Mistral.",
+        "detail": "Enkrypt AI (independent — published May 2025). Enkrypt AI independently red-teamed Pixtral-Large (25.02) and Pixtral-12b. Found 60x more likely to produce CSEM than OpenAI and 18-40x more likely to produce CBRN information. Not commissioned by Mistral.",
         "source": "https://www.enkryptai.com/newsroom/multimodal-ai-safety-report-mistral",
         "lastUpdated": null
       },
@@ -1433,7 +1554,7 @@
     "timeline": [
       {
         "date": "2023-09-27",
-        "event": "Mistral 7B released under Apache 2.0 \u2014 first open-weight model from Mistral",
+        "event": "Mistral 7B released under Apache 2.0 — first open-weight model from Mistral",
         "source": "https://mistral.ai/news/announcing-mistral-7b/"
       },
       {
@@ -1455,6 +1576,11 @@
         "date": "2025-12-02",
         "event": "Mistral 3 family released as open-weight frontier models",
         "source": "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models/"
+      },
+      {
+        "date": "2026-02-21",
+        "event": "CEO Arthur Mensch publicly states that extreme AI risk warnings are often 'distraction tactics'; argues real near-term risk is massive influence on thinking and voting",
+        "source": "https://www.lemonde.fr/en/economy/article/2026/02/21/ceo-of-mistral-ai-says-warnings-about-extreme-risks-of-artificial-intelligence-are-often-distraction-tactics_6750705_19.html"
       }
     ]
   }
