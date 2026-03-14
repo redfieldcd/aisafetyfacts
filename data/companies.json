@@ -149,6 +149,13 @@
         "companyResponse": "OpenAI stated users were violating terms of service and that the model suggests crisis hotlines. Company later updated safe messaging guidelines for sensitive topics."
       },
       {
+        "date": "2026-02-11",
+        "title": "Mission Alignment Team Disbanded — Second OpenAI Safety Team Dissolved in Two Years",
+        "description": "OpenAI confirmed it had disbanded its Mission Alignment team, a group of six to seven employees whose role was to help the public and OpenAI's own staff understand the company's mission to ensure AGI benefits all of humanity. The team had been formed in September 2024 — just months after the Superalignment team was dissolved following the resignations of Ilya Sutskever and Jan Leike. Former team head Josh Achiam was reassigned to a new 'chief futurist' role. OpenAI attributed the disbanding to routine reorganization. Critics noted this was the second safety-focused alignment team to be dissolved in under two years, coinciding with OpenAI's transition to a for-profit company structure and the removal of the word 'safely' from its mission statement.",
+        "source": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/",
+        "companyResponse": "OpenAI stated: 'The Mission Alignment project was a support function to help employees and the public understand our mission and the impact of AI. That work continues throughout the organization.' The spokesperson attributed the disbanding to routine reorganizations that occur within a fast-moving company. Source: https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/"
+      },
+      {
         "date": "2026-03-10",
         "title": "Canada Tumbler Ridge School Shooting – Family Sues OpenAI for Failing to Alert Authorities",
         "description": "The family of Maya Gebala (age 12), critically injured in a mass shooting at Tumbler Ridge Secondary School in British Columbia on February 10, 2026, sued OpenAI in the BC Supreme Court. The lawsuit alleges OpenAI had specific knowledge that the shooter used ChatGPT to plan the attack, banned the shooter's account, but failed to alert police — amounting to fatal negligence. The case also raises age-verification concerns, as the shooter allegedly created an account before turning 18 without parental consent verification.",
@@ -208,6 +215,11 @@
         "date": "2025-04-15",
         "event": "Preparedness Framework v2 published",
         "source": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf"
+      },
+      {
+        "date": "2026-02-11",
+        "event": "Mission Alignment team disbanded — team of 6-7 people reassigned to other roles; former head Josh Achiam becomes 'chief futurist'; second OpenAI safety alignment team dissolved in under two years (after Superalignment team in May 2024)",
+        "source": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/"
       },
       {
         "date": "2026-02-26",
@@ -1380,6 +1392,13 @@
         "description": "Sky News reported that X's safety teams were urgently investigating Grok chatbot's role in generating 'hate-filled, racist posts' online in response to user prompts. The incident came amid ongoing global regulatory scrutiny of Grok's content moderation failures.",
         "source": "https://www.reuters.com/technology/x-probes-offensive-posts-by-xais-grok-chatbot-sky-news-reports-2026-03-08/",
         "companyResponse": "X and xAI did not immediately respond to press requests. Investigation was described as 'urgent' by Sky News."
+      },
+      {
+        "date": "2026-03-13",
+        "title": "xAI Co-Founder Exodus — 7+ Founders Depart; Musk Admits Company Must Be 'Rebuilt'",
+        "description": "By March 13, 2026, at least seven of xAI's founding team members had left the company, including co-founders Zihang Dai (who oversaw core architecture) and Guodong Zhang (who led the coding agent and image/video generation tools). Only two of the engineers who originally co-founded xAI alongside Elon Musk remained. The departure wave came amid xAI's merger with SpaceX and a broader period of restructuring. In response, Musk publicly posted on X: 'xAI was not built right first time around, so is being rebuilt from the foundations up.' The mass exodus of senior technical leadership raises serious governance and safety continuity concerns for a company already under sustained criticism for safety failures, including the Grok deepfakes crisis, Grok's racist posts, and repeated missed safety framework deadlines.",
+        "source": "https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html",
+        "companyResponse": "Elon Musk posted on X: 'xAI was not built right first time around, so is being rebuilt from the foundations up.' Source: https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html"
       }
     ],
     "timeline": [
@@ -1437,6 +1456,11 @@
         "date": "2026-03-10",
         "event": "Just Security publishes analysis 'Grok Showed the World What Ungoverned AI Looks Like' — documenting full scope of global regulatory failures",
         "source": "https://www.justsecurity.org/131377/what-ungoverned-ai-looks-like/"
+      },
+      {
+        "date": "2026-03-13",
+        "event": "7+ xAI co-founders depart including Zihang Dai and Guodong Zhang; only 2 original co-founders remain with Musk; Musk posts 'xAI was not built right first time around, so is being rebuilt from the foundations up'",
+        "source": "https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html"
       }
     ]
   },
