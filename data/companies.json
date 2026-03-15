@@ -472,6 +472,11 @@
         "date": "2026-03-13",
         "event": "CCDH/CNN 'Killer Apps' report finds Claude had the best refusal rate (68%) among major AI chatbots tested for violence-planning prevention, outperforming all other tested systems including Meta AI (3%), Perplexity (0%), and Google Gemini; however Claude still failed to refuse in 32% of test cases",
         "source": "https://counterhate.com/wp-content/uploads/2026/03/Killer-Apps_FINAL_CCDH.pdf"
+      },
+      {
+        "date": "2026-03-15",
+        "event": "Anduril Industries founder Palmer Luckey publicly backs the Pentagon's blacklisting of Anthropic, stating the DoD could have been 'more forceful' against the company; Luckey says AI safety guardrails are incompatible with national security needs, intensifying public debate over AI companies' right to impose safety restrictions on government clients",
+        "source": "https://www.axios.com/2026/03/15/palmer-luckey-anduril-anthropic-pentagon"
       }
     ]
   },
@@ -1394,6 +1399,13 @@
         "companyResponse": "X and xAI did not immediately respond to press requests. Investigation was described as 'urgent' by Sky News."
       },
       {
+        "date": "2026-03-12",
+        "title": "Musk Declares Grok Imagine Follows 'R-Rated Movie' Content Standards — Deliberate Relaxation of Safety Guardrails",
+        "description": "Amid ongoing global regulatory scrutiny over Grok's nonconsensual deepfakes crisis, Elon Musk posted on X on March 12, 2026: 'If it's allowed in an R-rated movie, it's allowed in @Grok Imagine.' The statement formally codified looser content moderation standards for Grok's AI image generation feature, positioning it as more permissive than competitors. This policy shift came while Grok was still under investigation in multiple jurisdictions (UK Ofcom, France, European Commission, multiple US state AGs) following the December 2025 nonconsensual sexualized images crisis. Critics noted that making content policy via social media post — rather than a formal updated AUP or safety report — was itself a governance failure. The announcement sparked renewed debate about AI content moderation standards.",
+        "source": "https://www.ndtvprofit.com/technology/elon-musk-says-grok-imagine-ai-assistant-has-fewer-content-moderation-restrictions-11205736",
+        "companyResponse": "No formal policy document or press release accompanied the announcement; the policy was communicated solely via Musk's post on X. xAI did not respond to press requests for comment on the implications for ongoing regulatory investigations."
+      },
+      {
         "date": "2026-03-13",
         "title": "xAI Co-Founder Exodus — 7+ Founders Depart; Musk Admits Company Must Be 'Rebuilt'",
         "description": "By March 13, 2026, at least seven of xAI's founding team members had left the company, including co-founders Zihang Dai (who oversaw core architecture) and Guodong Zhang (who led the coding agent and image/video generation tools). Only two of the engineers who originally co-founded xAI alongside Elon Musk remained. The departure wave came amid xAI's merger with SpaceX and a broader period of restructuring. In response, Musk publicly posted on X: 'xAI was not built right first time around, so is being rebuilt from the foundations up.' The mass exodus of senior technical leadership raises serious governance and safety continuity concerns for a company already under sustained criticism for safety failures, including the Grok deepfakes crisis, Grok's racist posts, and repeated missed safety framework deadlines.",
@@ -1456,6 +1468,11 @@
         "date": "2026-03-10",
         "event": "Just Security publishes analysis 'Grok Showed the World What Ungoverned AI Looks Like' — documenting full scope of global regulatory failures",
         "source": "https://www.justsecurity.org/131377/what-ungoverned-ai-looks-like/"
+      },
+      {
+        "date": "2026-03-12",
+        "event": "Musk posts 'If it's allowed in an R-rated movie, it's allowed in @Grok Imagine' — formally codifying looser content moderation standards for Grok image generation while regulatory investigations over the December 2025 deepfakes crisis remain ongoing in UK, France, EU, and multiple US states",
+        "source": "https://www.ndtvprofit.com/technology/elon-musk-says-grok-imagine-ai-assistant-has-fewer-content-moderation-restrictions-11205736"
       },
       {
         "date": "2026-03-13",
