@@ -67,9 +67,19 @@ function Nav() {
 function Footer() {
   return (
     <footer className="border-t border-card-border mt-20 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-muted text-sm">
-        AI Safety Facts — Fact-based AI safety transparency. Not affiliated with
-        any AI company.
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-muted text-sm space-y-1">
+        <p>AI Safety Facts — Fact-based AI safety transparency. Not affiliated with any AI company.</p>
+        <p>
+          Built by{" "}
+          <a
+            href="https://redfieldcd.github.io/dancao/about.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            Dan Cao
+          </a>
+        </p>
       </div>
     </footer>
   );

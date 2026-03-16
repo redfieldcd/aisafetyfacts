@@ -82,20 +82,6 @@ export default function Home() {
         })}
       </div>
 
-      {/* Footer */}
-      <div className="mt-16 mb-8 text-center text-sm text-muted">
-        <p>
-          Built by{" "}
-          <a
-            href="https://redfieldcd.github.io/dancao/about.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent hover:underline"
-          >
-            Dan Cao
-          </a>
-        </p>
-      </div>
     </div>
   );
 }
