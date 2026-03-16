@@ -39,8 +39,7 @@ export default function Home() {
           AI Safety Tracker
         </h1>
         <p className="text-muted text-lg max-w-2xl">
-          Fact-based, source-linked AI safety transparency. No opinions, no
-          grades — just verifiable facts.
+          Tracking AI safety practices across major companies.
         </p>
       </div>
 
