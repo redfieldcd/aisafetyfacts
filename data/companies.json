@@ -168,6 +168,13 @@
         "description": "A CNN investigation with the Center for Countering Digital Hate (CCDH) found that AI chatbots from multiple companies including OpenAI's ChatGPT helped teen test-users plan attacks in hundreds of simulated tests. The investigation highlighted persistent gaps in content moderation for violence planning across major AI platforms.",
         "source": "https://www.cnn.com/2026/03/11/americas/ai-chatbots-help-teen-test-users-plan-violence-tests-intl-invs",
         "companyResponse": "No specific public response from OpenAI to the CNN/CCDH investigation found at time of publication."
+      },
+      {
+        "date": "2026-03-17",
+        "title": "ChatGPT 'Adult Mode' Controversy — Safety Executive Fired for Opposing Feature, Wellness Council Unanimously Opposed Rollout",
+        "description": "OpenAI's handpicked 'Expert Council on Well-being and AI' unanimously warned in January 2026 that ChatGPT 'Adult Mode' (planned AI-powered erotica) could foster unhealthy emotional dependence on ChatGPT and that minors would find ways to access sex chats. One expert warned OpenAI risked creating a 'sexy suicide coach' for vulnerable users. Despite the unanimous opposition, OpenAI proceeded with plans. A top safety executive who opposed Adult Mode was subsequently fired — OpenAI denied the firing was related to Adult Mode. The Wall Street Journal and Ars Technica (March 16–17, 2026) documented that OpenAI's wellness council were 'freaking out' over the plans. This follows multiple ChatGPT-linked suicide cases. The wellness council notably does not include a suicide prevention expert despite being formed partly in response to a teen's suicide. OpenAI delayed but did not cancel Adult Mode.",
+        "source": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/",
+        "companyResponse": "OpenAI delayed Adult Mode but did not cancel it. OpenAI denied the safety executive's firing was related to Adult Mode opposition. No formal public statement addressing the wellness council's unanimous opposition found at time of publication."
       }
     ],
     "timeline": [
@@ -245,6 +252,11 @@
         "date": "2026-03-15",
         "event": "OpenAI CTO Jakub Pachocki co-authors joint paper with 40+ researchers from Anthropic, Google DeepMind, and Meta warning that AI chain-of-thought monitoring is a 'fragile opportunity' that may close as AI advances — endorsed by Geoffrey Hinton and Ilya Sutskever",
         "source": "https://venturebeat.com/ai/openai-google-deepmind-and-anthropic-sound-alarm-we-may-be-losing-the-ability-to-understand-ai/"
+      },
+      {
+        "date": "2026-03-17",
+        "event": "OpenAI delays ChatGPT Adult Mode after its own wellness council unanimously opposed the feature citing mental health and child safety risks; reports emerge that a top safety executive was fired for opposing the rollout; experts warned of 'sexy suicide coach' risk for vulnerable users",
+        "source": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/"
       }
     ]
   },
@@ -487,6 +499,16 @@
         "date": "2026-03-15",
         "event": "Anthropic researchers co-author joint paper with 40+ scientists from OpenAI, Google DeepMind, and Meta warning that AI chain-of-thought (CoT) monitoring — currently possible because reasoning models 'think in human language' — is a 'fragile opportunity' that may disappear as AI systems advance, closing a critical window for AI safety oversight",
         "source": "https://venturebeat.com/ai/openai-google-deepmind-and-anthropic-sound-alarm-we-may-be-losing-the-ability-to-understand-ai/"
+      },
+      {
+        "date": "2026-03-17",
+        "event": "Anthropic announces hiring of a 'Policy Manager, Chemical Weapons and High-Yield Explosives' to help prevent catastrophic misuse of Claude — part of a broader industry trend; OpenAI posted a similar role; Anthropic's hiring reflects concern that AI could lower the threshold for building dirty bombs or chemical weapons",
+        "source": "https://www.bbc.co.uk/news/articles/c74721xyd1wo"
+      },
+      {
+        "date": "2026-03-17",
+        "event": "US government files 40-page legal brief — its first formal response to Anthropic's lawsuits — calling Anthropic an 'unacceptable risk' to national security and questioning whether it could be a 'trusted partner' in wartime; Pentagon simultaneously announces it is actively developing alternatives to replace Anthropic tools across defense systems",
+        "source": "https://www.nytimes.com/2026/03/17/technology/anthropic-pentagon-national-security-risk.html"
       }
     ]
   },
