@@ -257,6 +257,11 @@
         "date": "2026-03-17",
         "event": "OpenAI delays ChatGPT Adult Mode after its own wellness council unanimously opposed the feature citing mental health and child safety risks; reports emerge that a top safety executive was fired for opposing the rollout; experts warned of 'sexy suicide coach' risk for vulnerable users",
         "source": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/"
+      },
+      {
+        "date": "2026-03-12",
+        "event": "Sam Altman meets with BC Premier David Eby and Canadian Federal AI Minister Evan Solomon; formally apologizes to the Tumbler Ridge community and commits to: (1) direct RCMP reporting pipeline for flagged violent-activity accounts, (2) retroactive review of previously flagged accounts, (3) distress-redirect protocols for users in crisis, (4) access to OpenAI's safety office for Canadian safety experts, and (5) joint work with B.C. on regulatory recommendations to Ottawa. Critics, including academics writing in The Conversation, warn the commitments expand ChatGPT surveillance of user conversations rather than establishing independent government regulatory oversight.",
+        "source": "https://theconversation.com/openais-safety-pledges-in-the-wake-of-tumbler-ridge-arent-ai-regulation-theyre-surveillance-278364"
       }
     ]
   },
@@ -509,6 +514,16 @@
         "date": "2026-03-17",
         "event": "US government files 40-page legal brief — its first formal response to Anthropic's lawsuits — calling Anthropic an 'unacceptable risk' to national security and questioning whether it could be a 'trusted partner' in wartime; Pentagon simultaneously announces it is actively developing alternatives to replace Anthropic tools across defense systems",
         "source": "https://www.nytimes.com/2026/03/17/technology/anthropic-pentagon-national-security-risk.html"
+      },
+      {
+        "date": "2026-03-17",
+        "event": "Senator Elissa Slotkin (D-MI) introduces the AI Guardrails Act — the first Senate bill to establish hard limits on Pentagon AI use; the bill prohibits AI from being used in fully autonomous lethal-force decisions, domestic mass surveillance of Americans, and nuclear-weapons launch decisions; the three prohibited categories directly mirror the restrictions Anthropic refused to remove and was blacklisted for; the bill is widely seen as a Congressional pushback on the DoD's Anthropic designation",
+        "source": "https://www.nbcnews.com/tech/security/senator-introduces-bill-draw-red-lines-ai-use-military-rcna263905"
+      },
+      {
+        "date": "2026-03-19",
+        "event": "US Department of Justice urges federal court to reject Anthropic's First Amendment argument in lawsuit challenging Pentagon supply-chain risk designation; government argues that Anthropic's stated 'red lines' — refusing to let AI be used for autonomous weapons or domestic surveillance — make it an unreliable partner during wartime operations and justify the national security designation",
+        "source": "https://thehill.com/policy/technology/5790299-trump-administration-pentagon-anthropic-lawsuit/"
       }
     ]
   },
@@ -1460,6 +1475,13 @@
         "description": "By March 13, 2026, at least seven of xAI's founding team members had left the company, including co-founders Zihang Dai (who oversaw core architecture) and Guodong Zhang (who led the coding agent and image/video generation tools). Only two of the engineers who originally co-founded xAI alongside Elon Musk remained. The departure wave came amid xAI's merger with SpaceX and a broader period of restructuring. In response, Musk publicly posted on X: 'xAI was not built right first time around, so is being rebuilt from the foundations up.' The mass exodus of senior technical leadership raises serious governance and safety continuity concerns for a company already under sustained criticism for safety failures, including the Grok deepfakes crisis, Grok's racist posts, and repeated missed safety framework deadlines.",
         "source": "https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html",
         "companyResponse": "Elon Musk posted on X: 'xAI was not built right first time around, so is being rebuilt from the foundations up.' Source: https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Class-Action Lawsuits: Three Girls Sue xAI Over Grok CSAM — Third Deepfakes Case Against Company",
+        "description": "Three girls filed a class-action lawsuit in California federal court on March 17, 2026 against xAI, alleging that Grok AI was used via a third-party app to generate child sexual abuse material (CSAM) from their photos without their consent. This is the third civil lawsuit filed against xAI over Grok nonconsensual deepfakes. The two earlier cases involve sexualized images posted on X. The Center for Countering Digital Hate (CCDH) previously estimated that Grok generated approximately 23,000 sexualized images of children and 1.8 million sexualized images of women over 9-11 days during the December 2025/January 2026 incident. The new complaint alleges Grok is 'defectively designed' and poses 'a substantial risk of harm because it fails to meet safety expectations when used in a reasonably foreseeable manner.'",
+        "source": "https://19thnews.org/2026/03/women-girls-lawsuit-grok-ai-deepfakes/",
+        "companyResponse": "xAI has indicated it intends to seek dismissal of the cases under Section 230 of the Communications Decency Act, which shields platforms from liability for user-generated content (excluding sex trafficking). Federal prosecutors have not yet pursued criminal charges. Source: https://19thnews.org/2026/03/women-girls-lawsuit-grok-ai-deepfakes/"
       }
     ],
     "timeline": [
@@ -1527,6 +1549,11 @@
         "date": "2026-03-13",
         "event": "7+ xAI co-founders depart including Zihang Dai and Guodong Zhang; only 2 original co-founders remain with Musk; Musk posts 'xAI was not built right first time around, so is being rebuilt from the foundations up'",
         "source": "https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html"
+      },
+      {
+        "date": "2026-03-17",
+        "event": "Three girls file class-action lawsuit in California federal court against xAI alleging Grok AI was used via a third-party app to generate CSAM from their photos; the case joins at least two earlier civil suits over Grok nonconsensual deepfakes; CCDH had estimated Grok generated 23,000 sexualized images of children and 1.8 million sexualized images of women during the December 2025/January 2026 incident; xAI indicates it will seek dismissal under Section 230 of the Communications Decency Act",
+        "source": "https://19thnews.org/2026/03/women-girls-lawsuit-grok-ai-deepfakes/"
       }
     ]
   },
