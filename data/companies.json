@@ -262,6 +262,16 @@
         "date": "2026-03-12",
         "event": "Sam Altman meets with BC Premier David Eby and Canadian Federal AI Minister Evan Solomon; formally apologizes to the Tumbler Ridge community and commits to: (1) direct RCMP reporting pipeline for flagged violent-activity accounts, (2) retroactive review of previously flagged accounts, (3) distress-redirect protocols for users in crisis, (4) access to OpenAI's safety office for Canadian safety experts, and (5) joint work with B.C. on regulatory recommendations to Ottawa. Critics, including academics writing in The Conversation, warn the commitments expand ChatGPT surveillance of user conversations rather than establishing independent government regulatory oversight.",
         "source": "https://theconversation.com/openais-safety-pledges-in-the-wake-of-tumbler-ridge-arent-ai-regulation-theyre-surveillance-278364"
+      },
+      {
+        "date": "2026-03-18",
+        "event": "OpenAI expands its Preparedness team with new hires focused on chemical, biological, radiological, and explosive risks — including a dedicated threat modeler to identify and forecast catastrophic risk scenarios from frontier AI systems; part of a coordinated industry push alongside Anthropic, which simultaneously posted a 'Policy Manager, Chemical Weapons and High-Yield Explosives' role",
+        "source": "https://www.bbc.com/news/articles/c74721xyd1wo"
+      },
+      {
+        "date": "2026-03-20",
+        "event": "White House releases National AI Legislative Framework, urging Congress to preempt all state AI laws with a single 'minimally burdensome national standard'; the framework prioritizes AI innovation and scaling, places child safety responsibility primarily on parents, and proposes soft non-binding platform accountability expectations — widely seen as favorable to major AI companies including OpenAI",
+        "source": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/"
       }
     ]
   },
@@ -529,6 +539,11 @@
         "date": "2026-03-19",
         "event": "US Department of Justice urges federal court to reject Anthropic's First Amendment argument in lawsuit challenging Pentagon supply-chain risk designation; government argues that Anthropic's stated 'red lines' — refusing to let AI be used for autonomous weapons or domestic surveillance — make it an unreliable partner during wartime operations and justify the national security designation",
         "source": "https://thehill.com/policy/technology/5790299-trump-administration-pentagon-anthropic-lawsuit/"
+      },
+      {
+        "date": "2026-03-20",
+        "event": "Anthropic files two sworn declarations to a California federal court ahead of a March 24 hearing before Judge Rita Lin in San Francisco; Head of Policy Sarah Heck reveals that Pentagon told Anthropic the two sides were 'nearly aligned' just one week before Trump publicly declared the relationship over — contradicting the government's court filings; Heck denies the Pentagon's central claim that Anthropic demanded an 'approval role' over military operations, calling it false and stating it never appeared in months of negotiations, only in government court filings",
+        "source": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/"
       }
     ]
   },
