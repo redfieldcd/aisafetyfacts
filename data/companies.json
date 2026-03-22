@@ -486,6 +486,11 @@
         "source": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/"
       },
       {
+        "date": "2026-03-09",
+        "event": "37 researchers and engineers from OpenAI and Google — including Google DeepMind chief scientist Jeff Dean — file an amicus brief in support of Anthropic's motion against the Pentagon blacklisting; brief warns that the designation 'introduces an unpredictability in the industry that undermines American innovation and competitiveness' and 'chills professional debate on the benefits and limits of AI safety restrictions'; signatories include DeepMind researchers Zhengdong Wang, Alexander Matt Turner, and Noah Siegel, and OpenAI researchers Gabriel Wu, Pamela Mishkin, and Roman Novak, acting in personal capacity",
+        "source": "https://www.courtlistener.com/docket/72379655/24/1/anthropic-pbc-v-us-department-of-war/"
+      },
+      {
         "date": "2026-03-11",
         "event": "Anthropic Institute launched — new business unit consolidating the Frontier Red Team (AI cybersecurity), Societal Impacts, and Economic Research teams under co-founder Jack Clark as Head of Public Benefit; goal is to study and communicate AI's societal challenges to researchers and the public",
         "source": "https://www.anthropic.com/news/the-anthropic-institute"
@@ -542,7 +547,7 @@
       },
       {
         "date": "2026-03-20",
-        "event": "Anthropic files two sworn declarations to a California federal court ahead of a March 24 hearing before Judge Rita Lin in San Francisco; Head of Policy Sarah Heck reveals that Pentagon told Anthropic the two sides were 'nearly aligned' just one week before Trump publicly declared the relationship over — contradicting the government's court filings; Heck denies the Pentagon's central claim that Anthropic demanded an 'approval role' over military operations, calling it false and stating it never appeared in months of negotiations, only in government court filings",
+        "event": "Anthropic files two sworn declarations to a California federal court ahead of a March 24 hearing before Judge Rita Lin in San Francisco; Head of Policy Sarah Heck reveals that Pentagon told Anthropic the two sides were 'nearly aligned' just one week before Trump publicly declared the relationship over — contradicting the government's court filings; Heck denies the Pentagon's central claim that Anthropic demanded an 'approval role' over military operations, calling it false and stating it never appeared in months of negotiations, only in government court filings; Separately, Head of Public Sector Thiyagu Ramasamy files sworn declaration stating: 'Anthropic has never had the ability to cause Claude to stop working, alter its functionality, shut off access, or otherwise influence or imperil military operations' — directly refuting the Pentagon's core sabotage allegation",
         "source": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/"
       }
     ]
@@ -756,6 +761,11 @@
         "date": "2026-03-19",
         "event": "Business Insider reports that at a January 2026 internal town hall, Google DeepMind leaders told employees Google was 'leaning more' into Pentagon and national security contracts; VP Tom Lue said Google's 'north star' is 'whether the benefits substantially exceed the risks' — a shift from Google's 2025 removal of its prior pledge against weapons and surveillance AI use",
         "source": "https://www.businessinsider.com/google-department-defense-military-contract-ai-deepmind-national-security-deals-2026-3"
+      },
+      {
+        "date": "2026-03-20",
+        "event": "Google DeepMind researchers publish paper proposing a 10-trait cognitive framework for empirically measuring progress toward AGI — intended to replace subjective claims about AGI with a rigorous, governance-relevant benchmark; framework deconstructs general intelligence into 10 key faculties and proposes comparative evaluation of AI systems vs. humans across these capabilities; researchers write: 'This ambiguity fuels subjective claims, makes it difficult to track progress, and risks hindering responsible governance'",
+        "source": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/measuring-progress-toward-agi/measuring-progress-toward-agi-a-cognitive-framework.pdf"
       }
     ]
   },
