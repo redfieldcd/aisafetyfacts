@@ -272,6 +272,11 @@
         "date": "2026-03-20",
         "event": "White House releases National AI Legislative Framework, urging Congress to preempt all state AI laws with a single 'minimally burdensome national standard'; the framework prioritizes AI innovation and scaling, places child safety responsibility primarily on parents, and proposes soft non-binding platform accountability expectations — widely seen as favorable to major AI companies including OpenAI",
         "source": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/"
+      },
+      {
+        "date": "2026-03-21",
+        "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside OpenAI's San Francisco office (along with Anthropic and xAI), demanding Sam Altman publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher); protesters cited OpenAI weakening its safety commitments as it restructures into a for-profit corporation; Altman did not issue a public statement in response",
+        "source": "https://abc7news.com/post/sf-protesters-call-ai-pause-anthropic-openai-xai-white-house-pushes-national-framework-trump-seeks-liability-limits/18752242/"
       }
     ]
   },
@@ -549,6 +554,11 @@
         "date": "2026-03-20",
         "event": "Anthropic files two sworn declarations to a California federal court ahead of a March 24 hearing before Judge Rita Lin in San Francisco; Head of Policy Sarah Heck reveals that Pentagon told Anthropic the two sides were 'nearly aligned' just one week before Trump publicly declared the relationship over — contradicting the government's court filings; Heck denies the Pentagon's central claim that Anthropic demanded an 'approval role' over military operations, calling it false and stating it never appeared in months of negotiations, only in government court filings; Separately, Head of Public Sector Thiyagu Ramasamy files sworn declaration stating: 'Anthropic has never had the ability to cause Claude to stop working, alter its functionality, shut off access, or otherwise influence or imperil military operations' — directly refuting the Pentagon's core sabotage allegation",
         "source": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/"
+      },
+      {
+        "date": "2026-03-21",
+        "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside Anthropic's San Francisco headquarters (along with OpenAI and xAI offices), demanding Dario Amodei publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher who previously led a Google DeepMind hunger strike protest); organizers cited Anthropic having allegedly dropped its RSP-based pause commitment as a trigger for the protest; Anthropic did not issue a public statement in response",
+        "source": "https://abc7news.com/post/sf-protesters-call-ai-pause-anthropic-openai-xai-white-house-pushes-national-framework-trump-seeks-liability-limits/18752242/"
       }
     ]
   },
@@ -1601,6 +1611,11 @@
         "date": "2026-03-17",
         "event": "Three girls file class-action lawsuit in California federal court against xAI alleging Grok AI was used via a third-party app to generate CSAM from their photos; the case joins at least two earlier civil suits over Grok nonconsensual deepfakes; CCDH had estimated Grok generated 23,000 sexualized images of children and 1.8 million sexualized images of women during the December 2025/January 2026 incident; xAI indicates it will seek dismissal under Section 230 of the Communications Decency Act",
         "source": "https://19thnews.org/2026/03/women-girls-lawsuit-grok-ai-deepfakes/"
+      },
+      {
+        "date": "2026-03-21",
+        "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside xAI's San Francisco office (along with Anthropic and OpenAI), demanding Elon Musk publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher); the protest directly followed ongoing global regulatory scrutiny of Grok over the December 2025 nonconsensual deepfakes crisis; xAI did not issue a public statement in response",
+        "source": "https://abc7news.com/post/sf-protesters-call-ai-pause-anthropic-openai-xai-white-house-pushes-national-framework-trump-seeks-liability-limits/18752242/"
       }
     ]
   },
