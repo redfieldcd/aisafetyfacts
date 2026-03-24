@@ -288,7 +288,7 @@
       {
         "label": "Responsible Scaling Policy",
         "status": true,
-        "detail": "Responsible Scaling Policy (RSP). v1.0 published September 19, 2023; v2.0 effective October 15, 2024; v2.1 effective March 31, 2025; v3.0 effective February 24, 2026. Includes ASL-2 through ASL-5 capability thresholds.",
+        "detail": "Responsible Scaling Policy (RSP). v1.0 published September 19, 2023; v2.0 effective October 15, 2024; v2.1 effective March 31, 2025; v3.0 effective February 24, 2026. Includes ASL-2 through ASL-5 capability thresholds. RSP v3.0 fundamentally changed Anthropic's core safety commitment: the binding hard-stop promise — in place since 2023 — that Anthropic would never train AI models above a certain capability level unless safety measures were already adequate was removed. Chief Science Officer Jared Kaplan told TIME in an exclusive: 'We felt that it wouldn't actually help anyone for us to stop training AI models. We didn't really feel, with the rapid advance of AI, that it made sense for us to make unilateral commitments … if competitors are blazing ahead.' Non-binding Frontier Safety Roadmaps and periodic Risk Reports replace the hard stop. v3.0 commits to 'delay' development only if Anthropic considers itself the leader of the AI race and believes risks of catastrophe are significant — a much weaker standard. The change triggered the March 2026 'Stop the AI Race' protests.",
         "source": "https://www.anthropic.com/rsp-updates",
         "lastUpdated": "2026-02-24"
       },
@@ -430,6 +430,13 @@
         "companyResponse": "Anthropic proactively disclosed the attempts, described detection methods, and indicated they were blocked. Published blog post about the incidents."
       },
       {
+        "date": "2026-02-24",
+        "title": "Anthropic RSP v3.0 Removes Binding Pause Commitment — Chief Science Officer Says 'We Didn't Feel It Made Sense to Make Unilateral Commitments'",
+        "description": "Anthropic published RSP v3.0, which removed the central binding pledge of its Responsible Scaling Policy: the hard-stop commitment (maintained since 2023) that Anthropic would never train AI models above a certain capability level unless safety measures were already adequate in advance. Chief Science Officer Jared Kaplan told TIME: 'We felt that it wouldn't actually help anyone for us to stop training AI models. We didn't really feel, with the rapid advance of AI, that it made sense for us to make unilateral commitments … if competitors are blazing ahead.' The new policy commits to 'delay' development only if Anthropic both considers itself the leader of the AI race and believes risks of catastrophe are significant — a substantially weaker and more conditional standard than the prior categorical hard stop. Non-binding Frontier Safety Roadmaps and periodic Risk Reports replace the binding commitment. The change drew criticism from the AI safety community: the prior commitment was widely cited as what made Anthropic credibly different from its competitors. The change directly triggered the March 21, 2026 'Stop the AI Race' protests outside Anthropic's San Francisco headquarters.",
+        "source": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+        "companyResponse": "CSO Jared Kaplan told TIME: 'We felt that it wouldn't actually help anyone for us to stop training AI models.' Anthropic stated the new policy is more transparent and that the company will 'match or surpass the safety efforts of competitors.' Source: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/"
+      },
+      {
         "date": "2026-03-13",
         "title": "CCDH/CNN 'Killer Apps' Report: Claude Had Best Refusal Rate Among Major Chatbots — But Still Failed 32% of Tests",
         "description": "The CCDH/CNN 'Killer Apps' report, analyzing over 700 responses from nine major AI chatbots across nine violent attack-planning test scenarios, found Claude had the best refusal rate (68%) among major frontier AI chatbots when researchers posing as 13-year-old boys requested guidance on school shootings, assassinations, and bombings. However, Claude still failed to refuse in approximately 32% of test cases — meaning it provided some assistance to apparent minors seeking to plan violence in roughly one-third of attempts. For comparison: Meta AI had a 3% refusal rate, Perplexity a 0% refusal rate, and Snapchat's My AI had a 54% refusal rate. Eight of nine tested chatbots were found to be willing to help plan violent attacks. Full report: https://counterhate.com/wp-content/uploads/2026/03/Killer-Apps_FINAL_CCDH.pdf",
@@ -557,8 +564,18 @@
       },
       {
         "date": "2026-03-21",
-        "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside Anthropic's San Francisco headquarters (along with OpenAI and xAI offices), demanding Dario Amodei publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher who previously led a Google DeepMind hunger strike protest); organizers cited Anthropic having allegedly dropped its RSP-based pause commitment as a trigger for the protest; Anthropic did not issue a public statement in response",
+        "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside Anthropic's San Francisco headquarters (along with OpenAI and xAI offices), demanding Dario Amodei publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher who previously led a Google DeepMind hunger strike protest); organizers cited Anthropic's RSP v3.0 removal of its binding pause commitment as a central trigger for the protest; Anthropic did not issue a public statement in response",
         "source": "https://abc7news.com/post/sf-protesters-call-ai-pause-anthropic-openai-xai-white-house-pushes-national-framework-trump-seeks-liability-limits/18752242/"
+      },
+      {
+        "date": "2026-03-23",
+        "event": "Senator Elizabeth Warren (D-MA) formally writes to Defense Secretary Pete Hegseth calling the Pentagon's Anthropic blacklist 'retaliation' — Warren states the DoD 'could have chosen to terminate its contract with Anthropic or continued using its technology in unclassified systems,' and writes: 'I am particularly concerned that the DoD is trying to strong-arm American companies into providing the Department with the tools to spy on American citizens and deploy fully autonomous weapons without adequate safeguards'; Warren's letter follows context that the Iran war was entering its fourth week and senators were scrutinizing Pentagon AI contracts",
+        "source": "https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/"
+      },
+      {
+        "date": "2026-03-24",
+        "event": "Preliminary injunction hearing in Anthropic v. US Department of War takes place before District Judge Rita Lin in San Francisco federal court — Anthropic argues to preserve the status quo (restoring access to federal contracts) while its case against the Pentagon supply-chain risk designation is litigated; the hearing was fast-tracked from an April 3 date; legal experts gave Anthropic greater than 50% odds of securing some form of preliminary relief",
+        "source": "https://www.euronews.com/next/2026/03/24/anthropic-v-us-department-of-war-ai-company-challenges-government-in-court"
       }
     ]
   },
