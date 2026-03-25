@@ -175,6 +175,13 @@
         "description": "OpenAI's handpicked 'Expert Council on Well-being and AI' unanimously warned in January 2026 that ChatGPT 'Adult Mode' (planned AI-powered erotica) could foster unhealthy emotional dependence on ChatGPT and that minors would find ways to access sex chats. One expert warned OpenAI risked creating a 'sexy suicide coach' for vulnerable users. Despite the unanimous opposition, OpenAI proceeded with plans. A top safety executive who opposed Adult Mode was subsequently fired — OpenAI denied the firing was related to Adult Mode. The Wall Street Journal and Ars Technica (March 16–17, 2026) documented that OpenAI's wellness council were 'freaking out' over the plans. This follows multiple ChatGPT-linked suicide cases. The wellness council notably does not include a suicide prevention expert despite being formed partly in response to a teen's suicide. OpenAI delayed but did not cancel Adult Mode.",
         "source": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/",
         "companyResponse": "OpenAI delayed Adult Mode but did not cancel it. OpenAI denied the safety executive's firing was related to Adult Mode opposition. No formal public statement addressing the wellness council's unanimous opposition found at time of publication."
+      },
+      {
+        "date": "2026-03-24",
+        "title": "Sam Altman Relinquishes Direct Oversight of Safety and Security Teams to Focus on Fundraising and Data Center Expansion",
+        "description": "OpenAI CEO Sam Altman relinquished direct oversight of the company's safety and security teams, per a report by The Information. Altman told staff he is shifting his focus to raising capital, managing supply chains, and building data centers at unprecedented scale amid intensifying competition with Anthropic and Google. The move reduces C-suite accountability for safety outcomes at a time when OpenAI is under sustained scrutiny over wellness council opposition to Adult Mode, the firing of a safety executive, and the disbanding of two safety-focused teams in under two years (Superalignment in May 2024; Mission Alignment in February 2026). Separately on March 25, OpenAI's nonprofit arm announced co-founder Wojciech Zaremba would join to lead AI safety work, and pledged at least $1 billion over the next year targeting biosecurity, economic disruption, and AI safety research.",
+        "source": "https://www.investing.com/news/economy-news/altman-steps-back-from-safety-oversight-to-focus-on-openai-fundraising--the-information-93CH-4578437",
+        "companyResponse": "No formal public statement from OpenAI addressing the restructuring of safety oversight. The OpenAI Foundation separately announced on March 25, 2026 that co-founder Wojciech Zaremba would join to lead AI safety work, and that the Foundation would invest at least $1 billion over the next year in safety, biosecurity, and economic resilience. Source: https://www.reuters.com/business/openai-non-profit-names-leaders-plans-spend-1-billion-this-year-bloomberg-news-2026-03-24/"
       }
     ],
     "timeline": [
@@ -277,6 +284,21 @@
         "date": "2026-03-21",
         "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside OpenAI's San Francisco office (along with Anthropic and xAI), demanding Sam Altman publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher); protesters cited OpenAI weakening its safety commitments as it restructures into a for-profit corporation; Altman did not issue a public statement in response",
         "source": "https://abc7news.com/post/sf-protesters-call-ai-pause-anthropic-openai-xai-white-house-pushes-national-framework-trump-seeks-liability-limits/18752242/"
+      },
+      {
+        "date": "2026-03-24",
+        "event": "Sam Altman relinquishes direct oversight of OpenAI's safety and security teams to focus on capital raising, supply chains, and data center expansion — per The Information; third restructuring affecting safety leadership in under two years",
+        "source": "https://www.investing.com/news/economy-news/altman-steps-back-from-safety-oversight-to-focus-on-openai-fundraising--the-information-93CH-4578437"
+      },
+      {
+        "date": "2026-03-24",
+        "event": "OpenAI releases open-source teen safety prompt policies (using gpt-oss-safeguard model) for third-party developers to build safer AI applications for minors — targeting sexual content, self-harm, and underage-specific risks",
+        "source": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/"
+      },
+      {
+        "date": "2026-03-25",
+        "event": "OpenAI Foundation names new leadership: co-founder Wojciech Zaremba to lead AI safety work; Jacob Trefethen to head life sciences; foundation pledges at least $1 billion in 2026 for AI safety research, biosecurity, and economic opportunity",
+        "source": "https://www.reuters.com/business/openai-non-profit-names-leaders-plans-spend-1-billion-this-year-bloomberg-news-2026-03-24/"
       }
     ]
   },
@@ -574,8 +596,8 @@
       },
       {
         "date": "2026-03-24",
-        "event": "Preliminary injunction hearing in Anthropic v. US Department of War takes place before District Judge Rita Lin in San Francisco federal court — Anthropic argues to preserve the status quo (restoring access to federal contracts) while its case against the Pentagon supply-chain risk designation is litigated; the hearing was fast-tracked from an April 3 date; legal experts gave Anthropic greater than 50% odds of securing some form of preliminary relief",
-        "source": "https://www.euronews.com/next/2026/03/24/anthropic-v-us-department-of-war-ai-company-challenges-government-in-court"
+        "event": "Preliminary injunction hearing in Anthropic v. US Department of War takes place before District Judge Rita Lin in San Francisco; judge signals the Pentagon's blacklisting of Anthropic 'looks like punishment' for its AI safety views, stating the government appeared to be trying to punish Anthropic for going public with concerns about AI safety in the military — calling it a 'pretty low bar' for a national security designation; ruling on the preliminary injunction pending",
+        "source": "https://www.reuters.com/legal/government/us-judge-weigh-anthropics-bid-undo-pentagon-blacklisting-2026-03-24/"
       }
     ]
   },
@@ -1556,6 +1578,13 @@
         "description": "Three girls filed a class-action lawsuit in California federal court on March 17, 2026 against xAI, alleging that Grok AI was used via a third-party app to generate child sexual abuse material (CSAM) from their photos without their consent. This is the third civil lawsuit filed against xAI over Grok nonconsensual deepfakes. The two earlier cases involve sexualized images posted on X. The Center for Countering Digital Hate (CCDH) previously estimated that Grok generated approximately 23,000 sexualized images of children and 1.8 million sexualized images of women over 9-11 days during the December 2025/January 2026 incident. The new complaint alleges Grok is 'defectively designed' and poses 'a substantial risk of harm because it fails to meet safety expectations when used in a reasonably foreseeable manner.'",
         "source": "https://19thnews.org/2026/03/women-girls-lawsuit-grok-ai-deepfakes/",
         "companyResponse": "xAI has indicated it intends to seek dismissal of the cases under Section 230 of the Communications Decency Act, which shields platforms from liability for user-generated content (excluding sex trafficking). Federal prosecutors have not yet pursued criminal charges. Source: https://19thnews.org/2026/03/women-girls-lawsuit-grok-ai-deepfakes/"
+      },
+      {
+        "date": "2026-03-24",
+        "title": "Baltimore Becomes First U.S. City to Sue xAI Over Grok Nonconsensual Deepfakes Including of Children",
+        "description": "The Mayor and City Council of Baltimore filed a landmark lawsuit against xAI and X in Baltimore City Circuit Court on March 24, 2026, alleging that Grok AI generates nonconsensual sexually explicit images (NCII), including content involving children, in violation of Baltimore's Consumer Protection Ordinance and consumer protection laws. The suit alleges xAI engaged in deceptive trade practices by marketing Grok as generally safe while enabling widespread creation of harmful deepfake content. The complaint states Grok has 'flooded the feeds of Baltimore's X users with NCII.' Baltimore is the first major U.S. city to bring municipal legal action over the Grok deepfakes crisis — which CCDH previously estimated resulted in approximately 23,000 sexualized images of children and 1.8 million sexualized images of women over 9–11 days in late December 2025/January 2026. The case joins at least three other civil lawsuits against xAI over Grok-generated NCII and CSAM.",
+        "source": "https://www.reuters.com/legal/government/baltimore-sues-elon-musks-xai-over-grok-sexual-deepfakes-2026-03-24/",
+        "companyResponse": "xAI and X did not respond to press requests at time of publication. xAI has previously indicated it intends to seek dismissal of deepfakes-related cases under Section 230 of the Communications Decency Act. Source: https://www.cnbc.com/2026/03/24/musk-xai-sued-baltimore-grok-deepfake-porn.html"
       }
     ],
     "timeline": [
@@ -1633,6 +1662,11 @@
         "date": "2026-03-21",
         "event": "'Stop the AI Race' protest: nearly 200 demonstrators marched outside xAI's San Francisco office (along with Anthropic and OpenAI), demanding Elon Musk publicly commit to pausing frontier AI development if every other major AI lab agrees to do the same; organized by Michael Trazzi (filmmaker and former AI safety researcher); the protest directly followed ongoing global regulatory scrutiny of Grok over the December 2025 nonconsensual deepfakes crisis; xAI did not issue a public statement in response",
         "source": "https://abc7news.com/post/sf-protesters-call-ai-pause-anthropic-openai-xai-white-house-pushes-national-framework-trump-seeks-liability-limits/18752242/"
+      },
+      {
+        "date": "2026-03-24",
+        "event": "Baltimore becomes first U.S. city to sue xAI and X over Grok generating nonconsensual sexualized deepfakes including of children; suit filed in Baltimore City Circuit Court alleges violation of Consumer Protection Ordinance and deceptive marketing of Grok as 'generally safe'",
+        "source": "https://www.reuters.com/legal/government/baltimore-sues-elon-musks-xai-over-grok-sexual-deepfakes-2026-03-24/"
       }
     ]
   },
