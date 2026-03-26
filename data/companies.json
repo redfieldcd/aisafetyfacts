@@ -598,6 +598,11 @@
         "date": "2026-03-24",
         "event": "Preliminary injunction hearing in Anthropic v. US Department of War takes place before District Judge Rita Lin in San Francisco; judge signals the Pentagon's blacklisting of Anthropic 'looks like punishment' for its AI safety views, stating the government appeared to be trying to punish Anthropic for going public with concerns about AI safety in the military — calling it a 'pretty low bar' for a national security designation; ruling on the preliminary injunction pending",
         "source": "https://www.reuters.com/legal/government/us-judge-weigh-anthropics-bid-undo-pentagon-blacklisting-2026-03-24/"
+      },
+      {
+        "date": "2026-03-25",
+        "event": "Post-hearing analysis of the March 24 preliminary injunction hearing: Judge Rita Lin specifically stated Defense Secretary Hegseth's directive was 'troubling' and said of the supply chain risk designation 'It looks like an attempt to cripple Anthropic' — stronger language than initial reports indicated; legal analysts say the judge's characterization strongly suggests a preliminary injunction in Anthropic's favor is likely; the case is widely described as the first major US legal test of whether the government can designate a domestic company a national security supply chain risk as punishment for holding AI safety positions; Axios (March 26) reports Anthropic faces tens of billions of dollars in financial losses from lost government and contractor revenues if the designation stands, and outlines potential negotiated paths to deal revival",
+        "source": "https://www.aljazeera.com/economy/2026/3/25/anthropics-case-against-the-pentagon-could-open-space-for-ai-regulation"
       }
     ]
   },
