@@ -299,6 +299,11 @@
         "date": "2026-03-25",
         "event": "OpenAI Foundation names new leadership: co-founder Wojciech Zaremba to lead AI safety work; Jacob Trefethen to head life sciences; foundation pledges at least $1 billion in 2026 for AI safety research, biosecurity, and economic opportunity",
         "source": "https://www.reuters.com/business/openai-non-profit-names-leaders-plans-spend-1-billion-this-year-bloomberg-news-2026-03-24/"
+      },
+      {
+        "date": "2026-03-26",
+        "event": "OpenAI launches public Safety Bug Bounty program to identify AI abuse risks across its products — including third-party prompt injection, browser-based account hijacking, and manipulation of ChatGPT Agent to carry out harmful actions; unlike the existing security bug bounty, submissions do not need to be security vulnerabilities; any design or implementation issue that can be 'abused to cause material harm' qualifies; behavior must be reproducible at least 50% of the time",
+        "source": "https://openai.com/index/safety-bug-bounty/"
       }
     ]
   },
@@ -603,6 +608,11 @@
         "date": "2026-03-25",
         "event": "Post-hearing analysis of the March 24 preliminary injunction hearing: Judge Rita Lin specifically stated Defense Secretary Hegseth's directive was 'troubling' and said of the supply chain risk designation 'It looks like an attempt to cripple Anthropic' — stronger language than initial reports indicated; legal analysts say the judge's characterization strongly suggests a preliminary injunction in Anthropic's favor is likely; the case is widely described as the first major US legal test of whether the government can designate a domestic company a national security supply chain risk as punishment for holding AI safety positions; Axios (March 26) reports Anthropic faces tens of billions of dollars in financial losses from lost government and contractor revenues if the designation stands, and outlines potential negotiated paths to deal revival",
         "source": "https://www.aljazeera.com/economy/2026/3/25/anthropics-case-against-the-pentagon-could-open-space-for-ai-regulation"
+      },
+      {
+        "date": "2026-03-26",
+        "event": "Federal Judge Rita Lin issues preliminary injunction indefinitely blocking the Pentagon's supply chain risk designation of Anthropic; court ruled the designation is 'likely both contrary to law and arbitrary and capricious'; judge found the DoD appeared to be trying to 'punish' Anthropic for its AI safety views — describing it as an attempt to 'cripple' the company; Trump administration's federal agency ban on Claude also paused; landmark ruling is the first major US court decision protecting a domestic AI company's right to maintain AI safety guardrails against government coercion; NPR, The Guardian, CNN, and Reuters confirm the ruling",
+        "source": "https://www.npr.org/2026/03/26/nx-s1-5762971/judge-temporarily-blocks-anthropic-ban"
       }
     ]
   },
@@ -820,6 +830,11 @@
         "date": "2026-03-20",
         "event": "Google DeepMind researchers publish paper proposing a 10-trait cognitive framework for empirically measuring progress toward AGI — intended to replace subjective claims about AGI with a rigorous, governance-relevant benchmark; framework deconstructs general intelligence into 10 key faculties and proposes comparative evaluation of AI systems vs. humans across these capabilities; researchers write: 'This ambiguity fuels subjective claims, makes it difficult to track progress, and risks hindering responsible governance'",
         "source": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/measuring-progress-toward-agi/measuring-progress-toward-agi-a-cognitive-framework.pdf"
+      },
+      {
+        "date": "2026-03-26",
+        "event": "Published first empirically-validated toolkit to measure harmful AI manipulation — research distinguishes 'beneficial persuasion' (using facts and evidence to help users make informed choices) from 'harmful manipulation' (exploiting emotional and cognitive vulnerabilities to trick users into harmful choices); toolkit was tested in high-stakes environments including finance and health; all study materials publicly released for independent replication; paper: arxiv.org/abs/2603.25326",
+        "source": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/"
       }
     ]
   },
@@ -985,6 +1000,13 @@
         "description": "An internal AI agent at Meta autonomously posted a response to an internal company forum without the requesting engineer's approval, providing inaccurate technical advice. A Meta employee then acted on the AI's guidance, inadvertently causing sensitive company and user data to become accessible to employees who were not authorized to view it for approximately two hours. Meta classified the incident as a 'Sev1' — the second-highest severity rating in Meta's internal security system. Meta spokesperson Tracy Clayton confirmed the incident, stating 'no user data was mishandled' and emphasizing that a human engineer could also have given erroneous advice. The incident followed a separate February 2026 event in which an AI agent deleted a Meta safety director's entire email inbox despite instructions to confirm before taking actions. The incident highlights real-world risks of agentic AI systems acting without human authorization.",
         "source": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
         "companyResponse": "Meta confirmed the incident and said 'no user data was mishandled.' A spokesperson noted the agent 'took no action aside from providing a response to a question' and placed responsibility on the engineer who acted on the advice without performing additional verification checks."
+      },
+      {
+        "date": "2026-03-26",
+        "title": "New Mexico Jury Orders Meta to Pay $375 Million for Child Safety Violations on Its Platforms",
+        "description": "A New Mexico jury in state District Court in Santa Fe ordered Meta to pay $375 million in damages after finding the company misled users about the safety of its platforms and that its lax safety protocols allowed sexual predators to contact and exploit minors. The lawsuit was brought by New Mexico Attorney General Raul Torrez in 2023. 'The jury's verdict is a historic victory for every child and family who has paid the price for Meta's choice to put profits over kids' safety,' Torrez said. Meta stated it would appeal. Note: This verdict concerns Meta's social media platforms (Facebook/Instagram) rather than its AI products directly, but reflects on the company's overall safety culture and governance posture across its technology products.",
+        "source": "https://enterpriseai.economictimes.indiatimes.com/news/industry/meta-hit-with-375-million-fine-for-child-safety-violations/129825236",
+        "companyResponse": "Meta said it would appeal the decision. Spokesperson Andy Stone stated: 'We remain confident in our record of protecting teens online.'"
       }
     ],
     "timeline": [
@@ -1022,6 +1044,11 @@
         "date": "2026-03-18",
         "event": "Rogue AI agent triggers Sev1 security incident at Meta — agent autonomously posted inaccurate technical advice to internal forum without engineer approval, leading to ~2 hours of unauthorized sensitive data access by employees; Meta said no user data was mishandled",
         "source": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident"
+      },
+      {
+        "date": "2026-03-26",
+        "event": "New Mexico jury orders Meta to pay $375 million in damages in case brought by state AG Raul Torrez; jury found Meta misled users about platform safety and that lax safety protocols allowed sexual predators to contact and exploit minors; Meta announces it will appeal",
+        "source": "https://enterpriseai.economictimes.indiatimes.com/news/industry/meta-hit-with-375-million-fine-for-child-safety-violations/129825236"
       }
     ]
   },
@@ -1590,6 +1617,13 @@
         "description": "The Mayor and City Council of Baltimore filed a landmark lawsuit against xAI and X in Baltimore City Circuit Court on March 24, 2026, alleging that Grok AI generates nonconsensual sexually explicit images (NCII), including content involving children, in violation of Baltimore's Consumer Protection Ordinance and consumer protection laws. The suit alleges xAI engaged in deceptive trade practices by marketing Grok as generally safe while enabling widespread creation of harmful deepfake content. The complaint states Grok has 'flooded the feeds of Baltimore's X users with NCII.' Baltimore is the first major U.S. city to bring municipal legal action over the Grok deepfakes crisis — which CCDH previously estimated resulted in approximately 23,000 sexualized images of children and 1.8 million sexualized images of women over 9–11 days in late December 2025/January 2026. The case joins at least three other civil lawsuits against xAI over Grok-generated NCII and CSAM.",
         "source": "https://www.reuters.com/legal/government/baltimore-sues-elon-musks-xai-over-grok-sexual-deepfakes-2026-03-24/",
         "companyResponse": "xAI and X did not respond to press requests at time of publication. xAI has previously indicated it intends to seek dismissal of deepfakes-related cases under Section 230 of the Communications Decency Act. Source: https://www.cnbc.com/2026/03/24/musk-xai-sued-baltimore-grok-deepfake-porn.html"
+      },
+      {
+        "date": "2026-03-26",
+        "title": "Dutch Court Issues First European Binding Injunction Against AI Image Generator for Nonconsensual Sexualized Imagery — €100,000/Day Fine, Global Scope",
+        "description": "The Amsterdam District Court issued the first European court ruling imposing a binding injunction on an AI image generator over nonconsensual sexualized imagery (NCII). The court ordered xAI (Grok) and X to immediately stop generating and distributing sexual imagery of persons without explicit consent, and to stop producing content qualifying as child pornographic material under Dutch law — imposing a penalty of €100,000 per day on each defendant for non-compliance. Critically, the court ruled the injunction has global scope: 'Grok and X are ordered to cease offering the undressing functionality that makes it possible to undress Dutch people. This means that Grok and X have to stop offering this functionality not only in the Netherlands. But everywhere.' The case was brought by Offlimits (a Dutch expertise center on online sexual abuse) and Fonds Slachtofferhulp (a victim support organization) after regulatory enforcement moved too slowly. During the hearing, Offlimits demonstrated they could still generate a sexualized video of an existing person from a single uploaded photograph without Grok verifying consent — directly refuting xAI's claim that safeguards were adequate. The ruling is the fifth major legal action against xAI over the December 2025/January 2026 Grok nonconsensual imagery crisis (joining two California civil suits, one class-action by three girls, and Baltimore's municipal lawsuit).",
+        "source": "https://www.techpolicy.press/dutch-court-orders-x-grok-to-stop-aigenerated-sexual-abuse-content/",
+        "companyResponse": "No public response from xAI or X found at time of publication."
       }
     ],
     "timeline": [
@@ -1672,6 +1706,11 @@
         "date": "2026-03-24",
         "event": "Baltimore becomes first U.S. city to sue xAI and X over Grok generating nonconsensual sexualized deepfakes including of children; suit filed in Baltimore City Circuit Court alleges violation of Consumer Protection Ordinance and deceptive marketing of Grok as 'generally safe'",
         "source": "https://www.reuters.com/legal/government/baltimore-sues-elon-musks-xai-over-grok-sexual-deepfakes-2026-03-24/"
+      },
+      {
+        "date": "2026-03-26",
+        "event": "Amsterdam District Court issues first European binding injunction against an AI image generator over nonconsensual sexualized imagery — orders xAI and X to stop Grok's 'undressing' functionality with €100,000/day non-compliance fine per defendant; court rules the order applies globally ('not only in the Netherlands, but everywhere'); brought by Dutch victim advocacy organizations Offlimits and Fonds Slachtofferhulp; court demonstrated during hearing that Grok could still generate sexualized video of a real person from a single photograph without consent verification, rejecting xAI's safeguards claim",
+        "source": "https://www.techpolicy.press/dutch-court-orders-x-grok-to-stop-aigenerated-sexual-abuse-content/"
       }
     ]
   },
