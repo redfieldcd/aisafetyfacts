@@ -476,6 +476,13 @@
         "description": "Defense Secretary Pete Hegseth officially designated Anthropic a 'supply chain risk to national security' — a designation typically reserved for foreign adversary contractors — after Anthropic refused to remove safety guardrails prohibiting its AI from being used for autonomous weapons systems and domestic mass surveillance. The designation bars military contractors from using Claude. Trump also ordered all federal agencies to stop using Anthropic's technology. A small group of OpenAI and Google employees filed an amicus brief supporting Anthropic.",
         "source": "https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html",
         "companyResponse": "Anthropic sued the Department of Defense on March 9, 2026, arguing the designation violated its free speech and due process rights. On March 12, 2026, Anthropic sought an emergency stay from the U.S. Court of Appeals for the DC Circuit. The company said it remained open to negotiations. Microsoft filed an amicus brief backed by 22 retired military officials on March 12, 2026 urging the court to pause the designation. Source: https://www.reuters.com/technology/anthropic-seeks-court-stay-pentagon-supply-chain-risk-designation-2026-03-12/"
+      },
+      {
+        "date": "2026-03-26",
+        "title": "Anthropic Security Lapse Exposes ~3,000 Internal Assets Including Draft Blog Post for Unreleased 'Claude Mythos' Model with 'Unprecedented Cybersecurity Risks'",
+        "description": "Fortune reported that Anthropic inadvertently made approximately 3,000 unpublished internal assets publicly accessible via its content management system (CMS), which stores all assets for the company's website. Because assets uploaded to Anthropic's CMS were public by default unless explicitly set private, anyone with technical knowledge could query the system to retrieve unpublished files — including draft blog posts, internal PDFs, and images. The most significant disclosed item was a draft blog post describing an in-development model named 'Claude Mythos,' described in the draft as a 'step change' in capabilities that Anthropic believes poses 'unprecedented cybersecurity risks.' The leak also exposed details of an invite-only CEO event and other internal documents. Cybersecurity researcher Alexandre Pauwels (University of Cambridge) assessed and reviewed the material at Fortune's request. Anthropic secured the data after Fortune informed the company on March 26, 2026.",
+        "source": "https://fortune.com/2026/03/26/anthropic-leaked-unreleased-model-exclusive-event-security-issues-cybersecurity-unsecured-data-store/",
+        "companyResponse": "After being notified by Fortune on March 26, 2026, Anthropic took steps to secure the data and restrict public access. Anthropic confirmed it was already testing the Mythos model. No broader public statement on the security lapse found at time of publication. Source: https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
       }
     ],
     "timeline": [
@@ -613,6 +620,11 @@
         "date": "2026-03-26",
         "event": "Federal Judge Rita Lin issues preliminary injunction indefinitely blocking the Pentagon's supply chain risk designation of Anthropic; court ruled the designation is 'likely both contrary to law and arbitrary and capricious'; judge found the DoD appeared to be trying to 'punish' Anthropic for its AI safety views — describing it as an attempt to 'cripple' the company; Trump administration's federal agency ban on Claude also paused; landmark ruling is the first major US court decision protecting a domestic AI company's right to maintain AI safety guardrails against government coercion; NPR, The Guardian, CNN, and Reuters confirm the ruling",
         "source": "https://www.npr.org/2026/03/26/nx-s1-5762971/judge-temporarily-blocks-anthropic-ban"
+      },
+      {
+        "date": "2026-03-26",
+        "event": "Security lapse: ~3,000 unpublished internal assets exposed via Anthropic's CMS including draft blog post for unreleased model 'Claude Mythos' — described internally as a 'step change' in AI capabilities that Anthropic believes poses 'unprecedented cybersecurity risks'; Anthropic secured the data after Fortune informed the company",
+        "source": "https://fortune.com/2026/03/26/anthropic-leaked-unreleased-model-exclusive-event-security-issues-cybersecurity-unsecured-data-store/"
       }
     ]
   },
