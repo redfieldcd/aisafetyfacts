@@ -1636,6 +1636,13 @@
         "description": "The Amsterdam District Court issued the first European court ruling imposing a binding injunction on an AI image generator over nonconsensual sexualized imagery (NCII). The court ordered xAI (Grok) and X to immediately stop generating and distributing sexual imagery of persons without explicit consent, and to stop producing content qualifying as child pornographic material under Dutch law — imposing a penalty of €100,000 per day on each defendant for non-compliance. Critically, the court ruled the injunction has global scope: 'Grok and X are ordered to cease offering the undressing functionality that makes it possible to undress Dutch people. This means that Grok and X have to stop offering this functionality not only in the Netherlands. But everywhere.' The case was brought by Offlimits (a Dutch expertise center on online sexual abuse) and Fonds Slachtofferhulp (a victim support organization) after regulatory enforcement moved too slowly. During the hearing, Offlimits demonstrated they could still generate a sexualized video of an existing person from a single uploaded photograph without Grok verifying consent — directly refuting xAI's claim that safeguards were adequate. The ruling is the fifth major legal action against xAI over the December 2025/January 2026 Grok nonconsensual imagery crisis (joining two California civil suits, one class-action by three girls, and Baltimore's municipal lawsuit).",
         "source": "https://www.techpolicy.press/dutch-court-orders-x-grok-to-stop-aigenerated-sexual-abuse-content/",
         "companyResponse": "No public response from xAI or X found at time of publication."
+      },
+      {
+        "date": "2026-03-28",
+        "title": "All 11 xAI Co-Founders Have Departed — Complete Exodus of Founding Team as Musk Rebuilds from Scratch",
+        "description": "Manuel Kroiss (who led xAI's pretraining team and reported directly to Musk) and Ross Nordeen (described by Business Insider as Musk's 'right-hand operator,' who came to xAI from Tesla and helped plan major layoffs at Twitter after Musk's 2022 acquisition) departed xAI on approximately March 25–27, 2026, completing the full departure of all 11 of xAI's original co-founders. Their exits follow those of Zihang Dai, Guodong Zhang, Tony Wu, Jimmy Ba, Igor Babuschkin, Christian Szegedy, Greg Yang, Toby Pohlen, and Kyle Kosic — an extraordinarily accomplished group whose collective CV includes co-authorship of the Adam optimizer paper (95,000+ citations), senior roles at Google DeepMind, Microsoft Research, and OpenAI, and leadership of reasoning, pretraining, and image generation teams. Not a single member of xAI's original founding team now remains. This complete loss of the founding technical team raises substantial questions about safety continuity at a company already under sustained criticism for safety failures (Grok deepfakes crisis, racist posts, CSAM lawsuits) and with no published formal system cards or external safety evaluations. xAI was valued at $250 billion when SpaceX acquired it in February 2026. Musk previously stated xAI 'was not built right first time around' and is 'being rebuilt from the foundations up.'",
+        "source": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+        "companyResponse": "No formal statement from xAI. Elon Musk has previously stated on X: 'xAI was not built right first time around, so is being rebuilt from the foundations up.' Source: https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild"
       }
     ],
     "timeline": [
@@ -1723,6 +1730,11 @@
         "date": "2026-03-26",
         "event": "Amsterdam District Court issues first European binding injunction against an AI image generator over nonconsensual sexualized imagery — orders xAI and X to stop Grok's 'undressing' functionality with €100,000/day non-compliance fine per defendant; court rules the order applies globally ('not only in the Netherlands, but everywhere'); brought by Dutch victim advocacy organizations Offlimits and Fonds Slachtofferhulp; court demonstrated during hearing that Grok could still generate sexualized video of a real person from a single photograph without consent verification, rejecting xAI's safeguards claim",
         "source": "https://www.techpolicy.press/dutch-court-orders-x-grok-to-stop-aigenerated-sexual-abuse-content/"
+      },
+      {
+        "date": "2026-03-28",
+        "event": "Complete co-founder exodus: Manuel Kroiss and Ross Nordeen — the last two of xAI's 11 original co-founders — depart, leaving no member of the founding team at the company; Musk is rebuilding xAI 'from the foundations up' post-SpaceX acquisition; the full original cohort (including Jimmy Ba, Igor Babuschkin, Christian Szegedy, Tony Wu, Zihang Dai, and others) has now departed",
+        "source": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/"
       }
     ]
   },
