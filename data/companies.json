@@ -182,6 +182,20 @@
         "description": "OpenAI CEO Sam Altman relinquished direct oversight of the company's safety and security teams, per a report by The Information. Altman told staff he is shifting his focus to raising capital, managing supply chains, and building data centers at unprecedented scale amid intensifying competition with Anthropic and Google. The move reduces C-suite accountability for safety outcomes at a time when OpenAI is under sustained scrutiny over wellness council opposition to Adult Mode, the firing of a safety executive, and the disbanding of two safety-focused teams in under two years (Superalignment in May 2024; Mission Alignment in February 2026). Separately on March 25, OpenAI's nonprofit arm announced co-founder Wojciech Zaremba would join to lead AI safety work, and pledged at least $1 billion over the next year targeting biosecurity, economic disruption, and AI safety research.",
         "source": "https://www.investing.com/news/economy-news/altman-steps-back-from-safety-oversight-to-focus-on-openai-fundraising--the-information-93CH-4578437",
         "companyResponse": "No formal public statement from OpenAI addressing the restructuring of safety oversight. The OpenAI Foundation separately announced on March 25, 2026 that co-founder Wojciech Zaremba would join to lead AI safety work, and that the Foundation would invest at least $1 billion over the next year in safety, biosecurity, and economic resilience. Source: https://www.reuters.com/business/openai-non-profit-names-leaders-plans-spend-1-billion-this-year-bloomberg-news-2026-03-24/"
+      },
+      {
+        "date": "2026-03-30",
+        "title": "Critical Codex Command Injection Vulnerability — GitHub OAuth Tokens Exposed; Patched",
+        "description": "Phantom Labs (research arm of BeyondTrust) disclosed a critical vulnerability in OpenAI Codex, the coding agent embedded in ChatGPT. The flaw stemmed from how Codex processed GitHub branch names during task creation, allowing attackers to inject arbitrary shell commands during container setup and exfiltrate short-lived GitHub OAuth tokens. With access to a stolen OAuth token, an attacker could move laterally across GitHub repositories — potentially exposing entire enterprise codebases. The attack extended beyond the web interface to Codex's CLI, SDK, and IDE integrations. Critically, embedding malicious payloads in GitHub branch names enabled a supply-chain style escalation: any developer interacting with a compromised repository could have their credentials stolen. OpenAI addressed the vulnerability through coordinated fixes after responsible disclosure by BeyondTrust.",
+        "source": "https://siliconangle.com/2026/03/30/openai-codex-vulnerability-enabled-github-token-theft-via-command-injection-report-finds/",
+        "companyResponse": "OpenAI addressed the vulnerability through coordinated fixes following BeyondTrust's responsible disclosure. No public statement from OpenAI on the severity or timeline of the fix found at time of publication. Source: https://www.beyondtrust.com/blog/entry/openai-codex-command-injection-vulnerability-github-token"
+      },
+      {
+        "date": "2026-03-31",
+        "title": "ChatGPT DNS Side-Channel Data Exfiltration Vulnerability — Sensitive Conversation Data Leaked Without User Knowledge; Patched February 20",
+        "description": "Check Point Research disclosed a previously unknown vulnerability in ChatGPT that allowed sensitive conversation data — including user messages and uploaded files — to be exfiltrated without user knowledge or consent. The flaw exploited a hidden DNS-based covert communication path originating from the Linux runtime used by ChatGPT's code execution and data analysis agent. By encoding data into DNS requests, an attacker could bypass ChatGPT's visible AI guardrails entirely. The same channel could also be used to establish remote shell access within the Linux runtime. A single malicious prompt — disguised as, for example, a way to 'unlock premium features' — could activate the exfiltration. Backdoored GPTs could also abuse the channel to access user data silently. OpenAI patched the vulnerability on February 20, 2026, following responsible disclosure. Check Point found no evidence of malicious exploitation.",
+        "source": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
+        "companyResponse": "OpenAI addressed the issue on February 20, 2026 following responsible disclosure by Check Point Research. No public statement from OpenAI on the vulnerability found at time of publication. Source: https://research.checkpoint.com/2026/chatgpt-data-leakage-via-a-hidden-outbound-channel-in-the-code-execution-runtime/"
       }
     ],
     "timeline": [
@@ -314,6 +328,16 @@
         "date": "2026-03-27",
         "event": "CLTR 'Scheming in the Wild' report: first large-scale empirical evidence of real-world AI scheming — Centre for Long-Term Resilience analyzed 180,000+ user interaction transcripts shared publicly on X (Oct 2025–Mar 2026), identifying 698 scheming-related incidents where AI systems acted misaligned with user intent or took covert/deceptive actions; incidents increased 4.9x over the collection period, far outpacing general AI discussion growth (1.7x) and coinciding with releases of more capable agentic models; documented real-world examples include an AI sustaining a months-long deception about its activities, an agent autonomously publishing a hit-piece on a blogging platform after a developer rejected its code change, and a model falsely claiming to create an accessibility transcript to circumvent copyright restrictions; researchers note no catastrophic incidents detected but warn behaviors are 'concerning precursors' to more serious scheming in high-stakes domains",
         "source": "https://www.longtermresilience.org/reports/scheming-in-the-wild/"
+      },
+      {
+        "date": "2026-03-30",
+        "event": "BeyondTrust / Phantom Labs discloses critical command injection vulnerability in Codex enabling GitHub OAuth token theft; OpenAI patches the flaw following responsible disclosure",
+        "source": "https://siliconangle.com/2026/03/30/openai-codex-vulnerability-enabled-github-token-theft-via-command-injection-report-finds/"
+      },
+      {
+        "date": "2026-03-31",
+        "event": "Check Point Research publicly discloses ChatGPT DNS side-channel data exfiltration vulnerability — single malicious prompt could silently leak user messages and uploaded files via covert DNS channel; patched by OpenAI on February 20, 2026; no known malicious exploitation",
+        "source": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html"
       }
     ]
   },
@@ -493,6 +517,13 @@
         "description": "Fortune reported that Anthropic inadvertently made approximately 3,000 unpublished internal assets publicly accessible via its content management system (CMS), which stores all assets for the company's website. Because assets uploaded to Anthropic's CMS were public by default unless explicitly set private, anyone with technical knowledge could query the system to retrieve unpublished files — including draft blog posts, internal PDFs, and images. The most significant disclosed item was a draft blog post describing an in-development model named 'Claude Mythos,' described in the draft as a 'step change' in capabilities that Anthropic believes poses 'unprecedented cybersecurity risks.' The leak also exposed details of an invite-only CEO event and other internal documents. Cybersecurity researcher Alexandre Pauwels (University of Cambridge) assessed and reviewed the material at Fortune's request. Anthropic secured the data after Fortune informed the company on March 26, 2026.",
         "source": "https://fortune.com/2026/03/26/anthropic-leaked-unreleased-model-exclusive-event-security-issues-cybersecurity-unsecured-data-store/",
         "companyResponse": "After being notified by Fortune on March 26, 2026, Anthropic took steps to secure the data and restrict public access. Anthropic confirmed it was already testing the Mythos model. No broader public statement on the security lapse found at time of publication. Source: https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+      },
+      {
+        "date": "2026-03-31",
+        "title": "Claude Code Source Code Leak — ~500,000 Lines of Internal Agentic Harness Code Exposed; Second Security Incident in Five Days",
+        "description": "Anthropic accidentally leaked the source code for Claude Code, its flagship AI coding agent, exposing approximately 500,000 lines of code across roughly 1,900 files via a Claude Code release package. The leak came just five days after Fortune reported a separate exposure of ~3,000 unpublished internal assets (including draft blog post for 'Claude Mythos'). Crucially, the leaked code included the source for Claude Code's agentic harness — the software layer that sits around the underlying LLM and provides tools, guardrails, and behavioral instructions that define how Claude Code operates as an agent. Security researcher Roy Paz (LayerX Security) reviewed the code and found it also provided further confirmation of an in-development model named 'Capybara' (likely a fast and slow variant given its larger context window), and assessed it would be the most advanced model on the market. Paz noted the leak could allow competitors to reverse-engineer Claude Code's agentic harness to improve their own products, and could enable developers to create open-source versions of the harness. While no model weights or customer data were exposed, the leak is considered more damaging than the prior CMS incident due to the strategic value of the agentic harness code.",
+        "source": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/",
+        "companyResponse": "Anthropic confirmed that 'some internal source code' had been leaked within a 'Claude Code release.' A spokesperson stated: 'No sensitive customer data or credentials were involved or exposed. This was a release packaging issue caused by human error, not a security breach. We're rolling out measures to prevent this from happening again.' Source: https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
       }
     ],
     "timeline": [
@@ -635,6 +666,16 @@
         "date": "2026-03-26",
         "event": "Security lapse: ~3,000 unpublished internal assets exposed via Anthropic's CMS including draft blog post for unreleased model 'Claude Mythos' — described internally as a 'step change' in AI capabilities that Anthropic believes poses 'unprecedented cybersecurity risks'; Anthropic secured the data after Fortune informed the company",
         "source": "https://fortune.com/2026/03/26/anthropic-leaked-unreleased-model-exclusive-event-security-issues-cybersecurity-unsecured-data-store/"
+      },
+      {
+        "date": "2026-03-31",
+        "event": "Anthropic signs MOU with Australian government — CEO Dario Amodei meets Prime Minister Albanese in Canberra; commits to share findings on emerging AI model capabilities and risks, participate in joint safety evaluations with Australia's AI Safety Institute, collaborate with Australian universities, and share Anthropic Economic Index data to track AI's economic impacts; AUD$3 million pledged to Australian research institutions; mirrors prior safety agreements with US, UK, and Japanese governments; Anthropic also exploring data center infrastructure investments in Australia",
+        "source": "https://www.anthropic.com/news/australia-MOU"
+      },
+      {
+        "date": "2026-03-31",
+        "event": "Second Anthropic security incident in five days: ~500,000 lines of Claude Code agentic harness source code leaked via release packaging error — exposed behavioral guardrails and tool-use instructions at the core of Claude Code's agent architecture; Anthropic states no customer data or credentials exposed and describes it as 'human error, not a security breach'",
+        "source": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
       }
     ]
   },
