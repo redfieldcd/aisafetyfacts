@@ -174,7 +174,7 @@
         "title": "ChatGPT 'Adult Mode' Controversy — Safety Executive Fired for Opposing Feature, Wellness Council Unanimously Opposed Rollout",
         "description": "OpenAI's handpicked 'Expert Council on Well-being and AI' unanimously warned in January 2026 that ChatGPT 'Adult Mode' (planned AI-powered erotica) could foster unhealthy emotional dependence on ChatGPT and that minors would find ways to access sex chats. One expert warned OpenAI risked creating a 'sexy suicide coach' for vulnerable users. Despite the unanimous opposition, OpenAI proceeded with plans. A top safety executive who opposed Adult Mode was subsequently fired — OpenAI denied the firing was related to Adult Mode. The Wall Street Journal and Ars Technica (March 16–17, 2026) documented that OpenAI's wellness council were 'freaking out' over the plans. This follows multiple ChatGPT-linked suicide cases. The wellness council notably does not include a suicide prevention expert despite being formed partly in response to a teen's suicide. OpenAI delayed but did not cancel Adult Mode.",
         "source": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/",
-        "companyResponse": "OpenAI delayed Adult Mode but did not cancel it. OpenAI denied the safety executive's firing was related to Adult Mode opposition. No formal public statement addressing the wellness council's unanimous opposition found at time of publication."
+        "companyResponse": "OpenAI delayed Adult Mode but initially did not cancel it. OpenAI denied the safety executive's firing was related to Adult Mode opposition. No formal public statement addressing the wellness council's unanimous opposition found at time of publication. Update (April 1, 2026): Financial Times reported OpenAI has shelved plans to release an erotic chatbot indefinitely, citing the need for more development time and further study of potential impacts; industry observers also attributed the indefinite shelving to internal staff resistance and investor concerns. Source: https://www.ft.com/content/de9bf0af-b241-424f-8229-5870b1c0d93d"
       },
       {
         "date": "2026-03-24",
@@ -196,6 +196,20 @@
         "description": "Check Point Research disclosed a previously unknown vulnerability in ChatGPT that allowed sensitive conversation data — including user messages and uploaded files — to be exfiltrated without user knowledge or consent. The flaw exploited a hidden DNS-based covert communication path originating from the Linux runtime used by ChatGPT's code execution and data analysis agent. By encoding data into DNS requests, an attacker could bypass ChatGPT's visible AI guardrails entirely. The same channel could also be used to establish remote shell access within the Linux runtime. A single malicious prompt — disguised as, for example, a way to 'unlock premium features' — could activate the exfiltration. Backdoored GPTs could also abuse the channel to access user data silently. OpenAI patched the vulnerability on February 20, 2026, following responsible disclosure. Check Point found no evidence of malicious exploitation.",
         "source": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
         "companyResponse": "OpenAI addressed the issue on February 20, 2026 following responsible disclosure by Check Point Research. No public statement from OpenAI on the vulnerability found at time of publication. Source: https://research.checkpoint.com/2026/chatgpt-data-leakage-via-a-hidden-outbound-channel-in-the-code-execution-runtime/"
+      },
+      {
+        "date": "2026-04-01",
+        "title": "OpenAI Shelves ChatGPT Adult Mode Indefinitely — Financial Times Reports Indefinite Hold After Internal Resistance and Investor Concerns",
+        "description": "The Financial Times reported on April 1, 2026 that OpenAI has shelved plans to release an erotic chatbot ('Adult Mode' / '18+ ChatGPT') indefinitely, shifting focus to its core products such as its chatbot ecosystem and Codex. OpenAI confirmed the delay, citing the need for additional development time and further study of potential impacts. Industry observers and media outlets attributed the indefinite shelving to internal staff resistance — OpenAI's handpicked Expert Council on Well-being and AI had unanimously opposed the feature in January 2026, warning of risks including unhealthy emotional dependence and vulnerable users — as well as concerns raised by investors over legal and reputational risks. The feature had previously been described only as 'delayed' following the March 17 wellness council controversy. OpenAI faces ongoing lawsuits alleging ChatGPT contributed to user suicides. The indefinite hold represents a reversal from earlier public statements that Adult Mode was still planned.",
+        "source": "https://www.ft.com/content/de9bf0af-b241-424f-8229-5870b1c0d93d",
+        "companyResponse": "OpenAI confirmed the indefinite delay, stating it requires additional time to further develop the feature and study potential impacts. No further public statement found at time of publication."
+      },
+      {
+        "date": "2026-04-01",
+        "title": "OpenAI Secretly Founded and Funded 'Parents & Kids Safe AI Coalition' Without Disclosing Its Role to Member Groups — At Least Two Founding Members Resign After Learning of OpenAI's Involvement",
+        "description": "The SF Standard reported on April 1, 2026 that OpenAI secretly founded and fully funded the 'Parents & Kids Safe AI Coalition,' a child advocacy group that solicited endorsements from children's nonprofits across the country without disclosing OpenAI's role. In mid-March, child safety organizations received emails asking them to endorse the coalition's policy principles — which mirrored proposals in a child safety ballot initiative OpenAI had co-sponsored — without being told OpenAI was behind it. At least two founding member organizations removed themselves from the coalition after learning of OpenAI's involvement through media coverage of the formal announcement. One nonprofit leader told the SF Standard: 'It's a very grimy feeling. To find out they're trying to sneak around behind the scenes and do something like this ... they're sending emails that are pretty misleading.' OpenAI VP of Global Policy Ann O'Leary responded that the coalition and its supporters were 'proudly speaking up to protect kids.' The coalition is linked to the 'Parents & Kids Safe AI Act,' a California ballot initiative OpenAI co-sponsored with Common Sense Media — itself a compromise after OpenAI had funded a rival initiative to defeat a stronger child safety measure. Critics including FairPlay director Josh Golin said: 'I don't want OpenAI to write their own rules for how they interact with children.'",
+        "source": "https://sfstandard.com/2026/04/01/openai-ai-kids-safety-coalition/",
+        "companyResponse": "OpenAI Vice President of Global Policy Ann O'Leary provided a statement saying coalition members and supporters were 'fighting for the strongest child AI safety law in the nation' and noted the coalition's financial backers were 'proudly speaking up.' OpenAI did not address the lack of disclosure to member organizations. Source: https://sfstandard.com/2026/04/01/openai-ai-kids-safety-coalition/"
       }
     ],
     "timeline": [
@@ -338,6 +352,16 @@
         "date": "2026-03-31",
         "event": "Check Point Research publicly discloses ChatGPT DNS side-channel data exfiltration vulnerability — single malicious prompt could silently leak user messages and uploaded files via covert DNS channel; patched by OpenAI on February 20, 2026; no known malicious exploitation",
         "source": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Financial Times reports OpenAI has shelved ChatGPT Adult Mode ('18+ ChatGPT') indefinitely, citing need for additional development time and study of potential impacts; internal staff resistance and investor concerns also cited; feature had previously been characterized as merely 'delayed'",
+        "source": "https://www.ft.com/content/de9bf0af-b241-424f-8229-5870b1c0d93d"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "SF Standard reveals OpenAI secretly founded and fully funded 'Parents & Kids Safe AI Coalition' without disclosing its role to member organizations; at least two founding members resign after learning of OpenAI's involvement; coalition solicited endorsements from children's nonprofits on policy principles mirroring OpenAI's own California child safety ballot initiative",
+        "source": "https://sfstandard.com/2026/04/01/openai-ai-kids-safety-coalition/"
       }
     ]
   },
